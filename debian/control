@@ -1,0 +1,25 @@
+Source: kdemultimedia
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
+ libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1), libxml2-utils,
+ libfam-dev, libbz2-dev, libpcre++-dev, libungif4-dev | libgif-dev,
+ libasound2-dev (>=1.0.14~rc4-2), libtag1-dev, libgstreamer-plugins-base0.10-dev,
+ libmusicbrainz4-dev, libvorbis-dev, libtunepimp-dev, cdparanoia
+Standards-Version: 3.7.2
+
+Package: kdemultimedia
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: multimedia apps from the official KDE release 
+ KDE (the K Desktop Environment) is a powerful Open Source graphical
+ desktop environment for Unix workstations. It combines ease of use,
+ contemporary functionality, and outstanding graphical design with the
+ technological superiority of the Unix operating system.
+ .
+ This metapackage includes a collection of multimedia applications
+ (such as sound and movie player, mixers and plugins) provided with
+ the official release of KDE.
+ .
+  Homepage: http://multimedia.kde.org
