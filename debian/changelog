@@ -1,6 +1,6 @@
-kdemultimedia (3.90.1-1) unstable; urgency=low
+kdemultimedia (4:3.90.1-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 22 May 2007 16:08:39 +0200
 
