@@ -1,4 +1,11 @@
-kdemultimedia (4:3.90.1-1) unstable; urgency=low
+kdemultimedia (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Split programs.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 15 Nov 2007 18:57:03 +0100
+
+kdemultimedia (4:3.90.1-1) experimental; urgency=low
 
   * Initial release.
 

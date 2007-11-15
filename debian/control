@@ -2,14 +2,16 @@ Source: kdemultimedia
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.90.1),
- libtag1-dev, libgstreamer-plugins-base0.10-dev,
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.96.0),
+ kdebase-workspace-dev (>=4:3.96.0), libtag1-dev, libgstreamer-plugins-base0.10-dev,
  libmusicbrainz4-dev, libvorbis-dev, libtunepimp-dev, cdparanoia
 Standards-Version: 3.7.2
 
+
 Package: kdemultimedia
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Section: kde
+Architecture: all
+Depends: juk (>= ${Source-Version}), kmix (>= ${Source-Version}), kscd (>= ${Source-Version})
 Description: multimedia apps from the official KDE release 
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -19,5 +21,88 @@ Description: multimedia apps from the official KDE release
  This metapackage includes a collection of multimedia applications
  (such as sound and movie player, mixers and plugins) provided with
  the official release of KDE.
+
+Package: kdemultimedia-dev
+Section: devel
+Architecture: any
+Depends: kdelibs5-dev (>=4:3.96.0), kmix (= ${Source-Version}), 
+ kscd (= ${Source-Version}), libkcddb4 (= ${Source-Version}),
+ kdebase-workspace-dev (>=4:3.96.0), libtag1-dev, libgstreamer-plugins-base0.10-dev,
+ libmusicbrainz4-dev, libvorbis-dev, libtunepimp-dev, cdparanoia
+Description: development files for the KDE multimedia module
+ Development files and headers for the KDE multimedia module.
  .
-  Homepage: http://multimedia.kde.org
+ This package is part of KDE, as a component of the KDE multimedia module.
+ See the 'kde' and 'kdemultimedia' packages for more information.
+
+Package: juk
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: music organizer and player for KDE
+ JuK (pronounced "jook") is a jukebox and music manager for the KDE
+ desktop similar to jukebox software on other platforms such as
+ iTunes or RealOne.
+ .
+ Some of JuK's features include:
+  * Support for Ogg Vorbis and MP3 formats
+  * Tag editing support for both formats, including ID3v2 for MP3 files.
+    Multitagging or editing a selection of multiple files at once is also
+    supported
+  * Output to either the aRts, default KDE sound system, or GStreamer
+  * Management of your "collection" and multiple playlists
+  * Import and export to m3u playlists
+  * Binary caching of audio meta-data and playlist information for faster
+    load times (starting with the second time you run JuK)
+  * Integration into KDE that allows drag-and-drop and clipboard usage
+    with other KDE and X apps
+ .
+ This package is part of KDE, as a component of the KDE multimedia module.
+ See the 'kde' and 'kdemultimedia' packages for more information.
+
+
+Package: kmix
+Section: sound
+Architecture: any
+Depends: ${shlibs:Depends}
+Provides: x-audio-mixer
+Description: sound mixer applet for KDE
+ This package includes KDE's dockable sound mixer applet.
+ .
+ This package is part of KDE, as a component of the KDE multimedia module.
+ See the 'kde' and 'kdemultimedia' packages for more information.
+
+Package: kscd
+Section: sound
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: audio CD player for KDE
+ This is KDE's audio CD player.
+ .
+ This package is part of KDE, as a component of the KDE multimedia module.
+ See the 'kde' and 'kdemultimedia' packages for more information.
+
+
+Package: libkcddb4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: CDDB library for KDE
+ The KDE native CDDB (CD Data Base) library, providing easy access to Audio
+ CD meta-information (track titles, artist information, etc.) from on-line
+ databases, for KDE applications.
+ .
+ This package is part of KDE, as a component of the KDE multimedia module.
+ See the 'kde' and 'kdemultimedia' packages for more information.
+
+
+Package: kdemultimedia-dbg
+Section: libdevel
+Architecture: any
+Depends: kdelibs-dbg
+Priority: extra
+Depends: libkcddb4 (= ${Source-Version})
+Description: debugging symbols for kdemultimedia
+ This package contains the debugging symbols associated with kdemultimedia.
+ They will automatically be used by gdb for debugging kdemultimedia-related
+ issues.
