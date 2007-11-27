@@ -1,13 +1,19 @@
 kdemultimedia (4:3.96.0-1) experimental; urgency=low
 
   * KDE 4.0 rc1, first upload to the Debian archive.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
   * Split programs.
+
+  +++ Changes by Matthew Rosewarne:
+
   * Updated Build-Depends.
   * Re-added lost kdemultimedia-kio-plugins.
   * Wrote copyright file.
   * Reworked package descriptions.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 15 Nov 2007 18:57:03 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Nov 2007 09:24:37 +0100
 
 kdemultimedia (4:3.90.1-1) experimental; urgency=low
 
