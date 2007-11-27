@@ -1,7 +1,5 @@
 usr/bin/kscd
 usr/bin/workman2cddb.pl
-usr/lib/libkcompactdisc.so.4
-usr/lib/libkcompactdisc.so.4.0.0
 usr/share/applications/kde4/kscd.desktop
 usr/share/doc/kde4/HTML/en/kscd/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kscd/index.docbook
