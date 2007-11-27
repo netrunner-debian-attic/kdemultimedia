@@ -1,0 +1,13 @@
+usr/lib/libaudiocdplugins.so.1
+usr/lib/libaudiocdplugins.so.1.0.0
+usr/lib/kde4/libaudiocd_encoder_lame.so
+usr/lib/kde4/libaudiocd_encoder_vorbis.so
+usr/lib/kde4/libaudiocd_encoder_wav.so
+usr/lib/kde4/kcm_audiocd.so
+usr/lib/kde4/kio_audiocd.so
+usr/share/kde4/config.kcfg/audiocd_lame_encoder.kcfg
+usr/share/kde4/config.kcfg/audiocd_vorbis_encoder.kcfg
+usr/share/kde4/services/audiocd.desktop
+usr/share/kde4/services/audiocd.protocol
+usr/share/kde4/apps/kconf_update/audiocd.upd
+usr/share/kde4/apps/kconf_update/upgrade-metadata.sh
