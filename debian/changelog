@@ -4,9 +4,9 @@ kdemultimedia (4:3.97.0-1) experimental; urgency=low
     - Build depend on kdelibs5-dev >= 4:3.97.0.
   * Update Standards-Version to 3.7.3.
     - Replace use of ${Source-Version} with ${binary:Version}
-  * Add export LDFLAGS+="-Wl,--as-needed" in rules to pacify dpkg-shlibdeps
+  * Add export LDFLAGS+="-Wl,--as-needed" in rules to pacify dpkg-shlibdeps.
 
- -- Matthew Rosewarne <mukido@mikhail>  Fri, 07 Dec 2007 19:24:55 -0500
+ -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Fri, 07 Dec 2007 19:24:55 -0500
 
 kdemultimedia (4:3.96.0-1) experimental; urgency=low
 
