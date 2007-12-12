@@ -31,8 +31,7 @@ Package: kdemultimedia-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs-dbg (>=4:3.97.0), libkcddb4 (= ${binary:Version}),
- kdemultimedia-kio-plugins (>= ${binary:Version}), kmix (>= ${binary:Version})
+Depends: kdelibs-dbg (>=4:3.97.0)
 Description: debugging symbols for kdemultimedia
  This package contains the debugging symbols associated with kdemultimedia.
  They will automatically be used by gdb for debugging kdemultimedia-related
