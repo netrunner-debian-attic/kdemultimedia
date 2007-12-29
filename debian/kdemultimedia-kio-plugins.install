@@ -1,5 +1,5 @@
-usr/lib/libaudiocdplugins.so.1
-usr/lib/libaudiocdplugins.so.1.0.0
+usr/lib/libaudiocdplugins.so.4
+usr/lib/libaudiocdplugins.so.4.0.0
 usr/lib/kde4/libaudiocd_encoder_lame.so
 usr/lib/kde4/libaudiocd_encoder_vorbis.so
 usr/lib/kde4/libaudiocd_encoder_wav.so
