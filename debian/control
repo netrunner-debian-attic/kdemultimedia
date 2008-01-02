@@ -4,7 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>=0.4.50), cmake, debhelper (>= 5), quilt,
- kdelibs5-dev (>=4:3.98.0~), kdebase-workspace-dev (>=4:3.98.0~), cdparanoia,
+ kdelibs5-dev (>= 4:3.98.0~svn755919-1), kdebase-workspace-dev (>= 4:3.98.0~svn755919-1), 
+ libphonon-dev (>= 4:3.98.0~svn755919-1), cdparanoia,
  libasound2-dev, libcdparanoia0-dev, libflac-dev, libmusicbrainz4-dev,
  libogg-dev, libtag1-dev, libtheora-dev, libtunepimp-dev, libvorbis-dev
 Standards-Version: 3.7.3
@@ -31,7 +32,7 @@ Package: kdemultimedia-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs-dbg (>=4:3.98.0~)
+Depends: kdelibs-dbg (>=4:3.98.0~svn755919-1)
 Description: debugging symbols for kdemultimedia
  This package contains the debugging symbols associated with kdemultimedia.
  They will automatically be used by gdb for debugging kdemultimedia-related
@@ -41,7 +42,7 @@ Description: debugging symbols for kdemultimedia
 Package: kdemultimedia-dev
 Section: devel
 Architecture: any
-Depends: kdelibs5-dev (>=4:3.98.0~), kdebase-workspace-dev (>=4:3.98.0~),
+Depends: kdelibs5-dev (>=4:3.98.0~svn755919-1), kdebase-workspace-dev (>=4:3.98.0~svn755919-1),
  kdemultimedia-kio-plugins (= ${binary:Version}),
  libkcddb4 (= ${binary:Version})
 Description: development files for the KDE multimedia module
