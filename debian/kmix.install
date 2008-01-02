@@ -1,6 +1,5 @@
 usr/bin/kmix
 usr/bin/kmixctrl
-usr/lib/kde4/kmix_panelapplet.so
 usr/lib/libkdeinit4_kmix.so
 usr/lib/libkdeinit4_kmixctrl.so
 usr/share/applications/kde4/kmix.desktop
@@ -17,7 +16,6 @@ usr/share/icons/hicolor/32x32/apps/kmix.png
 usr/share/icons/hicolor/48x48/apps/kmix.png
 usr/share/icons/hicolor/64x64/apps/kmix.png
 usr/share/icons/hicolor/128x128/apps/kmix.png
-usr/share/kde4/apps/kicker/applets/kmixapplet.desktop
 usr/share/kde4/apps/kmix/kmixui.rc
 usr/share/kde4/apps/kmix/pics/kmixdocked.png
 usr/share/kde4/apps/kmix/pics/kmixdocked_error.png

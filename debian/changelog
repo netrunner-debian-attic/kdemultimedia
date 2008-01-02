@@ -2,6 +2,7 @@ kdemultimedia (4:3.98.0~svn755919-1) experimental; urgency=low
 
   * New svn snapshot release to revision 755919.
   * Add libphonon-dev build dependency. 
+  * Update kmix.install.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 02 Jan 2008 22:45:13 +0100
 
