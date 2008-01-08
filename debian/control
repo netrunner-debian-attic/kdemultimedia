@@ -9,7 +9,7 @@ Build-Depends: cdbs (>=0.4.50), cmake, debhelper (>= 5), quilt,
  libasound2-dev, libcdparanoia0-dev, libflac-dev, libmusicbrainz4-dev,
  libogg-dev, libtag1-dev, libtheora-dev, libtunepimp-dev, libvorbis-dev
 Standards-Version: 3.7.3
-
+Homepage: http://www.kde.org/
 
 Package: kdemultimedia
 Section: kde
@@ -70,6 +70,7 @@ Section: sound
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: k3b
+Homepage: http://developer.kde.org/~wheeler/juk.html
 Description: music organizer and player for KDE
  JuK (pronounced "jook") is a jukebox and music manager for the KDE
  desktop similar to jukebox software on other platforms such as
