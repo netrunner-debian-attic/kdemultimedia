@@ -10,7 +10,7 @@ to KDE at http://www.kde.org/people/credits/
 
 Copyright:
 Unless something else is mentioned, copyright is
-(C) 1996-2007, The K Desktop Enviroment project http://www.kde.org
+(C) 1996-2008, The K Desktop Enviroment project http://www.kde.org
 
 Juk: (c) 2002 - 2007, Scott Wheeler <wheeler@kde.org>
      (c) 2004 - 2007, Michael Pyne <michael.pyne@kdemail.net>
@@ -205,5 +205,5 @@ These files are under the GNU Library General Public License:
     Debian systems in /usr/share/common-licenses/LGPL
 
 
-The Debian packaging is (C) 2007,  Debian Qt/KDE Maintainers and
+The Debian packaging is (C) 2007-2008,  Debian Qt/KDE Maintainers and
 is licensed under the GPL, see `/usr/share/common-licenses/GPL'.

@@ -70,7 +70,6 @@ Section: sound
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: k3b
-Homepage: http://developer.kde.org/~wheeler/juk.html
 Description: music organizer and player for KDE
  JuK (pronounced "jook") is a jukebox and music manager for the KDE
  desktop similar to jukebox software on other platforms such as
