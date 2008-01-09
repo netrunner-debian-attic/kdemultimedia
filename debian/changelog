@@ -2,11 +2,16 @@ kdemultimedia (4:4.0.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Update copyright years.
+  * Remove extra LDFLAGS. Included via CDBS now.
+
   +++ Changes by Matthew Rosewarne:
 
   * Add Homepage: to control.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Jan 2008 12:18:33 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Jan 2008 15:16:19 +0100
 
 kdemultimedia (4:3.98.0~svn755919-1) experimental; urgency=low
 
