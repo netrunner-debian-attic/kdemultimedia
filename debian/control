@@ -32,7 +32,7 @@ Package: kdemultimedia-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs-dbg (>=4:4.0.0-1)
+Depends: kdebase-runtime-dbg
 Description: debugging symbols for kdemultimedia
  This package contains the debugging symbols associated with kdemultimedia.
  They will automatically be used by gdb for debugging kdemultimedia-related
