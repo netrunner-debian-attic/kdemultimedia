@@ -14,9 +14,9 @@ Homepage: http://www.kde.org/
 Package: kdemultimedia
 Section: kde
 Architecture: all
-Depends: kdemultimedia-kio-plugins (>= ${binary:Version}),
- juk (>= ${binary:Version}), kmix (>= ${binary:Version}),
- kscd (>= ${binary:Version})
+Depends: kdemultimedia-kio-plugins (>= ${source:Version}),
+ juk (>= ${source:Version}), kmix (>= ${source:Version}),
+ kscd (>= ${source:Version})
 Description: multimedia apps from the official KDE release 
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -33,6 +33,7 @@ Section: libdevel
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
+Suggests: kdemultimedia (= ${source:Version})
 Description: debugging symbols for kdemultimedia
  This package contains the debugging symbols associated with kdemultimedia.
  They will automatically be used by gdb for debugging kdemultimedia-related
@@ -41,10 +42,10 @@ Description: debugging symbols for kdemultimedia
 
 Package: kdemultimedia-dev
 Section: devel
-Architecture: any
+Architecture: all
 Depends: kdelibs5-dev (>=4:4.0.0-1), kdebase-workspace-dev (>=4:4.0.0-1),
- kdemultimedia-kio-plugins (= ${binary:Version}),
- libkcddb4 (= ${binary:Version})
+ kdemultimedia-kio-plugins (= ${source:Version}),
+ libkcddb4 (= ${source:Version})
 Description: development files for the KDE multimedia module
  Development files and headers for the KDE multimedia module.
  .
