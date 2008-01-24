@@ -42,10 +42,10 @@ Description: debugging symbols for kdemultimedia
 
 Package: kdemultimedia-dev
 Section: devel
-Architecture: all
+Architecture: any
 Depends: kdelibs5-dev (>=4:4.0.0-1), kdebase-workspace-dev (>=4:4.0.0-1),
- kdemultimedia-kio-plugins (= ${source:Version}),
- libkcddb4 (= ${source:Version})
+ kdemultimedia-kio-plugins (= ${binary:Version}),
+ libkcddb4 (= ${binary:Version})
 Description: development files for the KDE multimedia module
  Development files and headers for the KDE multimedia module.
  .
