@@ -58,7 +58,7 @@ section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, libkcddb4 (= ${binary:Version})
 Suggests: lame
-Description: Audio CD I/O Slave for KDE
+Description: audio CD I/O Slave for KDE
  This package includes the audiocd ioslave, which allows KDE applications to
  read audio from CDs and automatically convert it into other formats.
  .
