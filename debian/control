@@ -17,15 +17,16 @@ Architecture: all
 Depends: kdemultimedia-kio-plugins (>= ${source:Version}),
  juk (>= ${source:Version}), kmix (>= ${source:Version}),
  kscd (>= ${source:Version})
-Description: multimedia apps from the official KDE release 
- KDE (the K Desktop Environment) is a powerful Open Source graphical
- desktop environment for Unix workstations. It combines ease of use,
- contemporary functionality, and outstanding graphical design with the
- technological superiority of the Unix operating system.
+Description: multimedia applications from the official KDE 4 release
+ KDE is produced by an international technology team that creates free and open
+ source software for desktop and portable computing. Among KDE's products are a
+ modern desktop system for Linux and UNIX platforms, comprehensive office
+ productivity and groupware suites and hundreds of software titles in many
+ categories including Internet and web applications, multimedia, entertainment,
+ educational, graphics and software development.
  .
- This metapackage includes a collection of multimedia applications
- (such as a CD player, mixer, and jukebox) provided with
- the official release of KDE.
+ This metapackage includes multimedia applications provided with the official
+ release of KDE 4.
 
 
 Package: kdemultimedia-dbg
@@ -39,42 +40,36 @@ Description: debugging symbols for kdemultimedia
  They will automatically be used by gdb for debugging kdemultimedia-related
  issues.
 
-
 Package: kdemultimedia-dev
 Section: devel
 Architecture: any
 Depends: kdelibs5-dev (>=4:4.0.0-1), kdebase-workspace-dev (>=4:4.0.0-1),
  kdemultimedia-kio-plugins (= ${binary:Version}),
  libkcddb4 (= ${binary:Version})
-Description: development files for the KDE multimedia module
- Development files and headers for the KDE multimedia module.
+Description: development files for the KDE 4 multimedia module
+ This package contains headers and other related files needed to build software
+ that uses the KDE 4 multimedia libraries.
  .
- This package is part of KDE, as a component of the KDE multimedia module.
- See the 'kde' and 'kdemultimedia' packages for more information.
-
+ This package is part of the KDE 4 multimedia module.
 
 Package: kdemultimedia-kio-plugins
 section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, libkcddb4 (= ${binary:Version})
 Suggests: lame
-Description: audio CD I/O Slave for KDE
- This package includes the audiocd ioslave, which allows KDE applications to
- read audio from CDs and automatically convert it into other formats.
+Description: transparent audio CD access for KDE 4 applications
+ This package includes the audiocd KIO plugin, which allows KDE 4 applications
+ to read audio from CDs and automatically convert it into other formats.
  .
- This package is part of KDE, as a component of the KDE multimedia module.
- See the 'kde' and 'kdemultimedia' packages for more information.
-
+ This package is part of the KDE 4 multimedia module.
 
 Package: juk
 Section: sound
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: k3b
-Description: music organizer and player for KDE
- JuK (pronounced "jook") is a jukebox and music manager for the KDE
- desktop similar to jukebox software on other platforms such as
- iTunes or RealOne.
+Description: music jukebox for KDE 4
+ JuK is a powerful music player capable of managing a large music collection.
  .
  Some of JuK's features include:
   * Music collection, playlists, and smart playlists
@@ -84,43 +79,38 @@ Description: music organizer and player for KDE
   * CD burning support using k3b
   * Album art using Google Image Search
  .
- This package is part of KDE, as a component of the KDE multimedia module.
- See the 'kde' and 'kdemultimedia' packages for more information.
-
+ This package is part of the KDE 4 multimedia module.
 
 Package: kmix
 Section: sound
 Architecture: any
 Depends: ${shlibs:Depends}
 Provides: x-audio-mixer
-Description: sound mixer applet for KDE
- This package includes KDE's audio mixer application, for changing the volumes,
- inputs, and other properties of audio hardware.
+Description: volume control and mixer for KDE 4
+ KMix is an audio device mixer, used to adjust volume, select recording inputs,
+ and set other hardware options.
  .
- This package is part of KDE, as a component of the KDE multimedia module.
- See the 'kde' and 'kdemultimedia' packages for more information.
+ This package is part of the KDE 4 multimedia module.
 
 Package: kscd
 Section: sound
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: audio CD player for KDE
- This is KDE's audio CD player.
+Description: audio CD player for KDE 4
+ KsCD is an audio CD player.  It uses the Compact Disc DataBase to
+ fetch album information automatically.
  .
- This package is part of KDE, as a component of the KDE multimedia module.
- See the 'kde' and 'kdemultimedia' packages for more information.
-
+ This package is part of the KDE 4 multimedia module.
 
 Package: libkcddb4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: CDDB library for KDE
- The KDE native CDDB (CD Data Base) library, which provides easy access to
- Audio CD meta-information (track titles, artist information, etc.) from
- on-line databases, for KDE applications.
+Description: CDDB library for KDE 4
+ The KDE Compact Disc DataBase library provides an API for KDE 4 applications
+ to fetch and submit audio CD information over the internet.
  .
- This package also includes libKCompactDisc, for handling audio CDs.
+ This package also includes libKCompactDisc, which provides and API for
+ handling audio CDs.
  .
- This package is part of KDE, as a component of the KDE multimedia module.
- See the 'kde' and 'kdemultimedia' packages for more information.
+ This package is part of the KDE 4 multimedia module.
