@@ -35,10 +35,9 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdemultimedia (= ${source:Version})
-Description: debugging symbols for kdemultimedia
- This package contains the debugging symbols associated with kdemultimedia.
- They will automatically be used by gdb for debugging kdemultimedia-related
- issues.
+Description: debugging symbols for the KDE 4 multimedia module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE 4 multimedia module.
 
 Package: kdemultimedia-dev
 Section: devel
@@ -47,10 +46,8 @@ Depends: kdelibs5-dev (>=4:4.0.0-1), kdebase-workspace-dev (>=4:4.0.0-1),
  kdemultimedia-kio-plugins (= ${binary:Version}),
  libkcddb4 (= ${binary:Version})
 Description: development files for the KDE 4 multimedia module
- This package contains headers and other related files needed to build software
- that uses the KDE 4 multimedia libraries.
- .
- This package is part of the KDE 4 multimedia module.
+ This package contains development files for building software that uses
+ libraries from the KDE 4 multimedia module.
 
 Package: kdemultimedia-kio-plugins
 section: kde
