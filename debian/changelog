@@ -13,6 +13,7 @@ kdemultimedia (4:4.0.1-1) UNRELEASED; urgency=low
 
   * Update debhelper to 6.
   * Bump build-depends to >= 4:4.0.1-1.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Feb 2008 06:22:51 +0100
 
