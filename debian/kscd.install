@@ -1,6 +1,7 @@
 usr/bin/kscd
 usr/bin/workman2cddb.pl
 usr/share/applications/kde4/kscd.desktop
+usr/share/doc/kde4/HTML/en/kscd/common
 usr/share/doc/kde4/HTML/en/kscd/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kscd/index.docbook
 usr/share/doc/kde4/HTML/en/kscd/kscd.png

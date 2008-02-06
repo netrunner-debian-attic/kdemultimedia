@@ -5,6 +5,7 @@ usr/lib/libkdeinit4_kmixctrl.so
 usr/share/applications/kde4/kmix.desktop
 usr/share/autostart/restore_kmix_volumes.desktop
 usr/share/dbus-1/interfaces/org.kde.KMix.xml
+usr/share/doc/kde4/HTML/en/kmix/common
 usr/share/doc/kde4/HTML/en/kmix/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kmix/index.docbook
 usr/share/doc/kde4/HTML/en/kmix/kmix-channel-playback.png

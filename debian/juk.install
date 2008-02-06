@@ -4,6 +4,7 @@ usr/share/dbus-1/interfaces/org.kde.juk.collection.xml
 usr/share/dbus-1/interfaces/org.kde.juk.player.xml
 usr/share/dbus-1/interfaces/org.kde.juk.search.xml
 usr/share/doc/kde4/HTML/en/juk/history-playlist.png
+usr/share/doc/kde4/HTML/en/juk/common
 usr/share/doc/kde4/HTML/en/juk/index.cache.bz2
 usr/share/doc/kde4/HTML/en/juk/index.docbook
 usr/share/doc/kde4/HTML/en/juk/juk-adv-search.png
