@@ -2,6 +2,7 @@ kdemultimedia (4:4.0.66+svn791114-1) experimental; urgency=low
 
   * First KDE 4.1 snapshot packaged.
   * Update installed files.
+  * Bump build depends to >= 4:4.0.66.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 01 Apr 2008 20:45:27 +0200
 
