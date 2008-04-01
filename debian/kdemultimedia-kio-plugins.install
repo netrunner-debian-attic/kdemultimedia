@@ -5,7 +5,7 @@ usr/lib/kde4/libaudiocd_encoder_lame.so
 usr/lib/kde4/libaudiocd_encoder_vorbis.so
 usr/lib/kde4/libaudiocd_encoder_wav.so
 usr/lib/libaudiocdplugins.so.4
-usr/lib/libaudiocdplugins.so.4.0.0
+usr/lib/libaudiocdplugins.so.4.1.0
 usr/share/kde4/apps/kconf_update/audiocd.upd
 usr/share/kde4/apps/kconf_update/upgrade-metadata.sh
 usr/share/kde4/config.kcfg/audiocd_lame_encoder.kcfg
