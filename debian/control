@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), cmake, debhelper (>= 6), quilt,
- kdelibs5-dev (>= 4:4.0.66), kdebase-workspace-dev (>= 4:4.0.66), libphonon-dev (>= 4:4.0.66), 
+ kdelibs5-dev (>= 4:4.0.68), kdebase-workspace-dev (>= 4:4.0.68), libphonon-dev (>= 4:4.0.68), 
  cdparanoia, libasound2-dev, libcdparanoia0-dev, libflac-dev, libmusicbrainz4-dev,
  libogg-dev, libtag1-dev, libtheora-dev, libtunepimp-dev, libvorbis-dev
 Standards-Version: 3.7.3
@@ -43,7 +43,7 @@ Description: debugging symbols for the KDE 4 multimedia module
 Package: kdemultimedia-dev
 Section: devel
 Architecture: any
-Depends: kdelibs5-dev (>=4:4.0.66), kdebase-workspace-dev (>=4:4.0.66),
+Depends: kdelibs5-dev (>=4:4.0.68), kdebase-workspace-dev (>=4:4.0.68),
  kdemultimedia-kio-plugins (= ${binary:Version}),
  libkcddb4 (= ${binary:Version})
 Description: development files for the KDE 4 multimedia module
