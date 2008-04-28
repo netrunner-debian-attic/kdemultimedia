@@ -1,3 +1,10 @@
+kdemultimedia (4:4.0.71+svn801741-1) experimental; urgency=low
+
+  * New upstream snapshot
+  * Fix target link libraries
+
+ -- Sune Vuorela <debian@pusling.com>  Mon, 28 Apr 2008 10:16:18 +0200
+
 kdemultimedia (4:4.0.68+svn794641-1) experimental; urgency=low
 
   * New usptream snapshot. 
