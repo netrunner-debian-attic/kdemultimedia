@@ -1,10 +1,10 @@
 kdemultimedia (4:4.0.71+svn802698-1) experimental; urgency=low
 
-  * New upstream snapshot
+  * New upstream snapshot.
 
   +++ Changes by Sune Vuorela:
 
-  * Fix target link libraries
+  * Fix target link libraries.
 
   +++ Changes by Armin Berres:
 
