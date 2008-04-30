@@ -58,6 +58,9 @@ libKCompactDisc: (c) 2007, Alexander Kern <alex.kern@gmx.de>
                  WorkMan (c) 1991-1997, Steven Grimm <koreth@midwinter.com>,
                          (c) Dirk Försterling <milliByte@DeathsDoor.com>
 
+dragonplayer: (c) 2005 Max Howell <max.howell@methylblue.com>
+              (c) 2007 Ian Monroe <ian@monroe.nu>
+
 License:
 
 Unless otherwise mentioned, the code files in this package are under

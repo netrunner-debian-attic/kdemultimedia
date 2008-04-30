@@ -1,9 +1,19 @@
-kdemultimedia (4:4.0.71+svn801741-1) experimental; urgency=low
+kdemultimedia (4:4.0.71+svn802698-1) experimental; urgency=low
 
   * New upstream snapshot
+
+  +++ Changes by Sune Vuorela:
+
   * Fix target link libraries
 
- -- Sune Vuorela <debian@pusling.com>  Mon, 28 Apr 2008 10:16:18 +0200
+  +++ Changes by Armin Berres:
+
+  * Remove unneeded build dependencies on cdparanoia and kdebase-workspace-dev.
+  * Add dragonplayer package.
+  * Build depend on libxine-dev. Needed by dragonplayer.
+  * Build depend on kdelibs and libphonon from latest snapshot.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 14:59:30 +0200
 
 kdemultimedia (4:4.0.68+svn794641-1) experimental; urgency=low
 

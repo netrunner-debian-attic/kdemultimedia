@@ -1,5 +1,5 @@
---- kdemultimedia-4.0.71+svn801741.orig/kmix/CMakeLists.txt	2008-04-28 08:59:35.000000000 +0000
-+++ kdemultimedia-4.0.71+svn801741/kmix/CMakeLists.txt	2008-04-28 09:00:32.000000000 +0000
+--- a/kmix/CMakeLists.txt
++++ b/kmix/CMakeLists.txt
 @@ -50,7 +50,7 @@
  
  kde4_add_kdeinit_executable( kmix ${kmix_KDEINIT_SRCS})
@@ -18,8 +18,8 @@
  
  if (HAVE_LIBASOUND2)
      target_link_libraries(kdeinit_kmixctrl ${ASOUND_LIBRARY})
---- kdemultimedia-4.0.71+svn801741.orig/libkcddb/CMakeLists.txt	2008-04-28 08:22:51.000000000 +0000
-+++ kdemultimedia-4.0.71+svn801741/libkcddb/CMakeLists.txt	2008-04-28 08:22:51.000000000 +0000
+--- a/libkcddb/CMakeLists.txt
++++ b/libkcddb/CMakeLists.txt
 @@ -60,7 +60,7 @@
  
  kde4_add_library(kcddb SHARED ${kcddb_LIB_SRCS})
@@ -29,8 +29,8 @@
  if(MUSICBRAINZ_FOUND)
      target_link_libraries(kcddb ${MUSICBRAINZ_LIBRARIES})
  endif(MUSICBRAINZ_FOUND)
---- kdemultimedia-4.0.71+svn801741.orig/libkcompactdisc/CMakeLists.txt	2008-04-28 08:38:57.000000000 +0000
-+++ kdemultimedia-4.0.71+svn801741/libkcompactdisc/CMakeLists.txt	2008-04-28 08:50:33.000000000 +0000
+--- a/libkcompactdisc/CMakeLists.txt
++++ b/libkcompactdisc/CMakeLists.txt
 @@ -47,7 +47,7 @@
  
  kde4_add_library(kcompactdisc SHARED ${kcompactdisc_LIB_SRCS})
@@ -40,3 +40,22 @@
  if (HAVE_LIBASOUND2)
      target_link_libraries(kcompactdisc ${ASOUND_LIBRARY})
  endif (HAVE_LIBASOUND2)
+--- a/dragonplayer/src/app/CMakeLists.txt
++++ b/dragonplayer/src/app/CMakeLists.txt
+@@ -32,6 +32,8 @@
+ target_link_libraries(dragon
+     ${KDE4_KUTILS_LIBS}
+     ${KDE4_PHONON_LIBS}
++    ${KDE4_SOLID_LIBS}
++    ${KDE4_KIO_LIBRARY}
+     ${XINE_LIBRARY} )
+ 
+ install(TARGETS dragon DESTINATION ${BIN_INSTALL_DIR})
+@@ -44,6 +46,7 @@
+ kde4_add_plugin(dragonpart ${videoplayer_part_SRCS})
+ 
+ target_link_libraries(dragonpart
++${KDE4_SOLID_LIBS}
+     ${KDE4_KPARTS_LIBS}
+     ${KDE4_PHONON_LIBS}
+     ${XINE_LIBRARY} )

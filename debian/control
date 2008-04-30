@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), cmake (>= 2.6.0~), debhelper (>= 6), quilt,
- kdelibs5-dev (>= 4:4.0.68), kdebase-workspace-dev (>= 4:4.0.68), libphonon-dev (>= 4:4.0.68), 
- cdparanoia, libasound2-dev, libcdparanoia0-dev, libflac-dev, libmusicbrainz4-dev,
+ kdelibs5-dev (>= 4:4.0.71+svn802698-1), libphonon-dev (>= 4:4.0.71+svn802698-1), 
+ libasound2-dev, libcdparanoia0-dev, libflac-dev, libmusicbrainz4-dev, libxine-dev,
  libogg-dev, libtag1-dev, libtheora-dev, libtunepimp-dev, libvorbis-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
@@ -112,3 +112,17 @@ Description: CDDB library for KDE 4
  handling audio CDs.
  .
  This package is part of the KDE 4 multimedia module.
+
+Package: dragonplayer
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Simple KDE 4 video player
+ A video player with a different philosophy: Simple, uncluttered interface.
+ .
+ Features:
+  - Plays DVDs, VCDs, all video formats supported by Xine.
+  - Bundled with a simple web-page KPart.
+  - Starts quickly.
+ .
+ This is the KDE 4 version of the Codeine video player.
