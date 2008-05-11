@@ -1,3 +1,11 @@
+kdemultimedia (4:4.0.73+svn806149-1~pre1) UNRELEASED; urgency=low
+
+  * New upstream development snapshot:
+    - The latest upstream commit is r806149 by repinc
+    - Date: Sat, 10 May 2008 23:19:22 -0000
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 May 2008 02:30:35 +0300
+
 kdemultimedia (4:4.0.72-1) experimental; urgency=low
 
   * New upstream snapshot.
