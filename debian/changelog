@@ -1,8 +1,6 @@
-kdemultimedia (4:4.0.73+svn806149-1) UNRELEASED; urgency=low
+kdemultimedia (4:4.0.74-1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r806149 by repinc
-    - Date: Sat, 10 May 2008 23:19:22 -0000
+  * New upstream snapshot.
 
    +++ Changes by Fathi Boudra:
 
