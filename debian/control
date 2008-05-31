@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), cmake (>= 2.4.5), debhelper (>= 6), quilt,
- kdelibs5-dev (>= 4:4.0.73), libphonon-dev (>= 4:4.0.73),
+ kdelibs5-dev (>= 4:4.0.81), libphonon-dev (>= 4:4.2~),
  libasound2-dev, libcdparanoia0-dev, libflac-dev, libmusicbrainz4-dev, libxine-dev,
  libogg-dev, libtag1-dev, libtheora-dev, libtunepimp-dev, libvorbis-dev, libx11-dev
 Standards-Version: 3.7.3
@@ -15,7 +15,8 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdemultimedia
 Package: kdemultimedia
 Section: kde
 Architecture: all
-Depends: kdemultimedia-kio-plugins (>= ${source:Version}),
+Depends: dragonplayer (>= ${source:Version}),
+ kdemultimedia-kio-plugins (>= ${source:Version}),
  juk (>= ${source:Version}), kmix (>= ${source:Version}),
  kscd (>= ${source:Version})
 Description: multimedia applications from the official KDE 4 release

@@ -1,3 +1,13 @@
+kdemultimedia (4:4.0.81+svn814614-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+  * Add dragonplayer to kdemultimedia metapackage.
+  * Update build dependencies:
+    - Bump kdelibs5-dev to (>= 4:4.0.81).
+    - Change libphonon-dev to new versioning (>= 4:4.2~).
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 31 May 2008 13:37:35 +0200
+
 kdemultimedia (4:4.0.80-1) experimental; urgency=low
 
   * New upstream snapshot.
