@@ -1,4 +1,4 @@
-etc/kde4/dragonplayerrc
+usr/share/kde4/config/dragonplayerrc
 usr/bin/dragon
 usr/lib/kde4/dragonpart.so
 usr/share/applications/kde4/dragonplayer.desktop
