@@ -1,3 +1,10 @@
+kdemultimedia (4:4.1.0-1) experimental; urgency=low
+
+  * New upstream release. 
+  * Update build depends and depends to >= 4:4.1.0.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 27 Jul 2008 13:05:08 +0200
+
 kdemultimedia (4:4.0.98-1) experimental; urgency=low
 
   * New upstream release, Release Candidate 1.
