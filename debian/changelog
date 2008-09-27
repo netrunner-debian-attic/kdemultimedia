@@ -1,3 +1,11 @@
+kdemultimedia (4:4.1.2-0) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * Add patch  10_r865240_cdparanoia taken from KDE rev 865240 to build against 
+    cdparanoia 10.2.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 23:10:35 +0200
+
 kdemultimedia (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release.
