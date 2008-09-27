@@ -2,9 +2,7 @@ kdemultimedia (4:4.1.2-0) UNRELEASED; urgency=low
 
   * New upstream release.
   * Add patch 10_r865240_cdparanoia to build against cdparanoia 10.2.
-  * Patch 11_r849896_no_HAVE_CDDA_IOCTL_DEVICE, it builds but this patch is
-    broken...
-
+ 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 23:10:35 +0200
 
 kdemultimedia (4:4.1.1-1) experimental; urgency=low
