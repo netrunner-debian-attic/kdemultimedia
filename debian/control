@@ -4,11 +4,12 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
-Build-Depends: cdbs (>= 0.4.51), cmake (>= 2.6), debhelper (>= 6), quilt,
- kdelibs5-dev (>= 4:4.1.3), libphonon-dev (>= 4:4.2), libplasma-dev (>= 4:4.1.3),
- libasound2-dev, libcdparanoia0-dev, libflac-dev, libmusicbrainz4-dev, libxine-dev,
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
+ kdelibs5-dev (>= 4:4.1.80), libphonon-dev (>= 4:4.2.0), libplasma-dev (>= 4:4.1.80),
+ libasound2-dev (>= 1.0.14a) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
+ libcdparanoia0-dev, libflac-dev, libmusicbrainz4-dev, libxine-dev,
  libogg-dev, libtag1-dev, libtheora-dev, libtunepimp-dev, libvorbis-dev, libx11-dev
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdemultimedia
 Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdemultimedia
@@ -47,6 +48,7 @@ Architecture: any
 Depends: ${sameVersionDep:kdelibs5-dev:kdemultimedia-kio-plugins},
  libkcddb-dev (= ${binary:Version}),
  kdemultimedia-kio-plugins (= ${binary:Version})
+Replaces: juk (<< 4:4.1.80), kscd (<< 4:4.1.80), kxim (<< 4:4.1.80)
 Description: development files for the KDE 4 multimedia module
  This package contains development files for building software that uses
  libraries from the KDE 4 multimedia module.
@@ -118,10 +120,12 @@ Package: libkcddb-dev
 Section: libdevel
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkcddb4 (= ${binary:Version})
-Replaces: kdemultimedia-dev (<< 4:4.0.73)
+Replaces: kdemultimedia-dev (<< 4:4.1.80)
 Description: CDDB library for KDE 4 (development)
  The KDE Compact Disc DataBase library provides an API for KDE 4 applications
  to fetch and submit audio CD information over the internet.
+ .
+ This package also includes development files for libKCompactDisc.
  .
  This package contains the CDDB library development files for KDE 4.
  .

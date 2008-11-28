@@ -1,11 +1,10 @@
 usr/bin/kmix
 usr/bin/kmixctrl
-usr/lib/libkdeinit4_kmixctrl.so
 usr/lib/libkdeinit4_kmix.so
+usr/lib/libkdeinit4_kmixctrl.so
 usr/share/applications/kde4/kmix.desktop
 usr/share/autostart/kmix_autostart.desktop
 usr/share/autostart/restore_kmix_volumes.desktop
-usr/share/dbus-1/interfaces/org.kde.KMix.xml
 usr/share/doc/kde4/HTML/en/kmix/common
 usr/share/doc/kde4/HTML/en/kmix/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kmix/index.docbook
@@ -19,9 +18,9 @@ usr/share/icons/hicolor/32x32/apps/kmix.png
 usr/share/icons/hicolor/48x48/apps/kmix.png
 usr/share/icons/hicolor/64x64/apps/kmix.png
 usr/share/kde4/apps/kmix/kmixui.rc
+usr/share/kde4/apps/kmix/pics/kmixdocked.png
 usr/share/kde4/apps/kmix/pics/kmixdocked_error.png
 usr/share/kde4/apps/kmix/pics/kmixdocked_mute.png
-usr/share/kde4/apps/kmix/pics/kmixdocked.png
 usr/share/kde4/apps/kmix/pics/mix_ac97.png
 usr/share/kde4/apps/kmix/pics/mix_audio.png
 usr/share/kde4/apps/kmix/pics/mix_bass.png

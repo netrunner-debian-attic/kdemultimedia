@@ -1,4 +1,3 @@
-usr/share/kde4/config/dragonplayerrc
 usr/bin/dragon
 usr/lib/kde4/dragonpart.so
 usr/share/applications/kde4/dragonplayer.desktop
@@ -20,5 +19,7 @@ usr/share/icons/oxygen/48x48/actions/player-volume-muted.png
 usr/share/icons/oxygen/scalable/actions/player-volume-muted.svgz
 usr/share/kde4/apps/dragonplayer/dragonlogo.png
 usr/share/kde4/apps/dragonplayer/dragonplayerui.rc
+usr/share/kde4/apps/solid/actions/dragonplayer-opendvd.desktop
+usr/share/kde4/config/dragonplayerrc
 usr/share/kde4/services/ServiceMenus/dragonplayer_play_dvd.desktop
 usr/share/kde4/services/dragonplayer_part.desktop
