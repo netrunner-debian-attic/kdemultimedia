@@ -58,6 +58,7 @@ section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, libkcddb4 (= ${binary:Version})
 Suggests: lame
+Replaces: kscd (<< 4:4.1.80)
 Description: transparent audio CD access for KDE 4 applications
  This package includes the audiocd KIO plugin, which allows KDE 4 applications
  to read audio from CDs and automatically convert it into other formats.
