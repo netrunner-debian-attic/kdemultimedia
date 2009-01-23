@@ -2,4 +2,4 @@
  
 include debian/cdbs/kde.mk
 
-DEB_DH_MAKESHLIBS_ARGS_libkcddb4 := -V'libkcddb4 (>= 4:4.1.80)'
+DEB_DH_MAKESHLIBS_ARGS_libkcddb4 := -V'libkcddb4 (>= 4:4.2.0)'

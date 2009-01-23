@@ -1,20 +1,20 @@
-kdemultimedia (4:4.1.96+svn910960-0r1) UNRELEASED; urgency=low
+kdemultimedia (4:4.2.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream release.
 
   +++ Changes by Modestas Vainius:
 
   * Use sameVersionDep for kdemultimedia-dev dependency on kdelibs5-dev.
   * Remove kdebase-workspace-dev from kdemultimedia-dev depends.
   * Remove explicit cmake from build depends.
-  * Bump KDE build dependencies to 4:4.1.96.
+  * Bump KDE build dependencies to 4:4.2.0.
   * Bump Standards-Version to 3.8.0: add README.source.
   * Update 97_fix_target_link_libraries.diff.
   * Move libkcompactdisc devel files to libkcddb-dev, move DBus XML files
     to kdemultimedia-dev. Add appropriate replaces.
   * kdemultimedia-kio-plugins replaces earlier kscd, virtual_folders
     audiocd.desktop was misplaced.
-  * Bump libkcddb shlibs to 4.1.80.
+  * Bump libkcddb shlibs to 4.2.0.
   * Do not build depend on libplasma-dev. Plasma headers are in kdelibs5-dev
     for now.
 
