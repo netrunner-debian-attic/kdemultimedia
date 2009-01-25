@@ -1,5 +1,5 @@
 #!/usr/bin/make -f
  
-include debian/cdbs/kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
 DEB_DH_MAKESHLIBS_ARGS_libkcddb4 := -V'libkcddb4 (>= 4:4.2.0)'
