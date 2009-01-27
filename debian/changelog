@@ -1,4 +1,4 @@
-kdemultimedia (4:4.2.0-0r1) UNRELEASED; urgency=low
+kdemultimedia (4:4.2.0-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -29,7 +29,7 @@ kdemultimedia (4:4.2.0-0r1) UNRELEASED; urgency=low
 
   * Update copyright file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Jan 2009 17:59:27 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jan 2009 08:36:26 +0100
 
 kdemultimedia (4:4.1.3-1) experimental; urgency=low
 
