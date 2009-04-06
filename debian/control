@@ -33,7 +33,7 @@ Description: multimedia applications from the official KDE 4 release
  release of KDE 4.
 
 Package: kdemultimedia-dbg
-Section: libdevel
+Section: debug
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
