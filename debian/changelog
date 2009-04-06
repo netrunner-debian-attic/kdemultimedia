@@ -1,8 +1,10 @@
 kdemultimedia (4:4.2.2-1) unstable; urgency=low
 
-  * New upstream release. 
+  * New upstream release:
+    - Bugfixes in juk. (Closes: #433885, #516954)
+    - Bugixes in kmix (Closes: #398847, #391996, #403097, #420214)
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 31 Mar 2009 22:34:45 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 06 Apr 2009 09:14:01 +0200
 
 kdemultimedia (4:4.2.1-1) experimental; urgency=low
 
