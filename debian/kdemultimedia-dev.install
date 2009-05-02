@@ -1,7 +1,6 @@
 usr/include/audiocdencoder.h
 usr/lib/libaudiocdplugins.so
 usr/share/dbus-1/interfaces/org.kde.KMix.xml
-usr/share/dbus-1/interfaces/org.kde.juk.collection.xml
 usr/share/dbus-1/interfaces/org.kde.juk.player.xml
 usr/share/dbus-1/interfaces/org.kde.juk.search.xml
 usr/share/dbus-1/interfaces/org.kde.kscd.cdplayer.xml
