@@ -151,7 +151,7 @@ Description: Simple KDE 4 video player
 Package: mplayerthumbs
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, mplayer
 Description: video thumbnail generator for KDE 4
  TODO
  .
