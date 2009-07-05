@@ -1,6 +1,7 @@
 kdemultimedia (4:4.2.95-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Add libknotificationitem-1-dev and libpulse-dev build dependencies.
   * Bump Standards-Version from 3.8.1 to 3.8.2 (no changes needed).
 
  -- Fathi Boudra <fabo@debian.org>  Sun, 05 Jul 2009 23:16:07 +0200
