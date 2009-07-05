@@ -20,7 +20,8 @@ Architecture: all
 Depends: dragonplayer (>= ${source:Version}),
  kdemultimedia-kio-plugins (>= ${source:Version}),
  juk (>= ${source:Version}), kmix (>= ${source:Version}),
- kscd (>= ${source:Version}), mplayerthumbs (>= ${source:Version})
+ kscd (>= ${source:Version})
+Recommends: mplayerthumbs (>= ${source:Version})
 Description: multimedia applications from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
