@@ -20,7 +20,7 @@ Architecture: all
 Depends: dragonplayer (>= ${source:Version}),
  kdemultimedia-kio-plugins (>= ${source:Version}),
  juk (>= ${source:Version}), kmix (>= ${source:Version}),
- kscd (>= ${source:Version})
+ kscd (>= ${source:Version}), mplayerthumbs (>= ${source:Version})
 Description: multimedia applications from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -135,7 +135,7 @@ Description: CDDB library for KDE 4 (development)
 Package: dragonplayer
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Simple KDE 4 video player
  A video player with a different philosophy: Simple, uncluttered interface.
  .
@@ -145,3 +145,14 @@ Description: Simple KDE 4 video player
   - Starts quickly.
  .
  This is the KDE 4 version of the Codeine video player.
+ .
+ This package is part of the KDE 4 multimedia module.
+
+Package: mplayerthumbs
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: video thumbnail generator for KDE 4
+ TODO
+ .
+ This package is part of the KDE 4 multimedia module.
