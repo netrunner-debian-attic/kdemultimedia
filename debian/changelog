@@ -1,4 +1,4 @@
-kdemultimedia (4:4.2.95-0r1) UNRELEASED; urgency=low
+kdemultimedia (4:4.2.96-1) experimental; urgency=low
 
   * New upstream release.
   * Add libknotificationitem-1-dev and libpulse-dev build dependencies.
