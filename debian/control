@@ -137,7 +137,7 @@ Package: dragonplayer
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Simple KDE 4 video player
+Description: simple KDE 4 video player
  A video player with a different philosophy: Simple, uncluttered interface.
  .
  Features:
@@ -153,9 +153,9 @@ Package: mplayerthumbs
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, mplayer
-Description: Video thumbnail generator for KDE 4
+Description: video thumbnail generator for KDE 4
  MPlayerThumbs is a video thumbnail generator for KDE 4 file managers
- like Dolphin and Konqueror. It enables them to show preview images
+ like Dolphin and Konqueror.  It enables them to show preview images
  of video files.
  .
  This package is part of the KDE 4 multimedia module.
