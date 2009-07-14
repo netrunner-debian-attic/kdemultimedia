@@ -153,7 +153,9 @@ Package: mplayerthumbs
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, mplayer
-Description: video thumbnail generator for KDE 4
- TODO
+Description: Video thumbnail generator for KDE 4
+ MPlayerThumbs is a video thumbnail generator for KDE 4 file managers
+ like Dolphin and Konqueror. It enables them to show preview images
+ of video files.
  .
  This package is part of the KDE 4 multimedia module.
