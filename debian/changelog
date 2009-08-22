@@ -1,3 +1,12 @@
+kdemultimedia (4:4.3.0-2) unstable; urgency=low
+
+  * Add patch to fix build in kfreebsd. Thanks to Petr Salinger. 
+    (Closes: #542639) 
+  * Bump Standards-Version from 3.8.2 to 3.8.3 (no changes needed).
+  * Updating packaging years copyright.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 22 Aug 2009 14:51:20 +0200
+
 kdemultimedia (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
