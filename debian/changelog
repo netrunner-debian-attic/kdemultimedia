@@ -1,3 +1,10 @@
+kdemultimedia (4:4.3.0-3) unstable; urgency=low
+
+  * Add missing part to the kfreebsd patch.  Thanks to Petr Salinger again.
+   Really (Closes: #542639).
+
+ -- Ana Beatriz Guerrero Lopez <ana@henry.aurel32.net>  Sun, 23 Aug 2009 14:18:22 +0200
+
 kdemultimedia (4:4.3.0-2) unstable; urgency=low
 
   * Add patch to fix build in kfreebsd. Thanks to Petr Salinger. 

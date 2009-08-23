@@ -1,7 +1,5 @@
-Index: kdemultimedia-4.3.0/libkcompactdisc/wmlib/include/wm_config.h
-===================================================================
---- kdemultimedia-4.3.0.orig/libkcompactdisc/wmlib/include/wm_config.h	2009-08-22 14:57:41.000000000 +0200
-+++ kdemultimedia-4.3.0/libkcompactdisc/wmlib/include/wm_config.h	2009-08-22 14:58:20.000000000 +0200
+--- kdemultimedia-4.3.0.orig/libkcompactdisc/wmlib/include/wm_config.h
++++ kdemultimedia-4.3.0/libkcompactdisc/wmlib/include/wm_config.h
 @@ -106,9 +106,9 @@
   ***  ******  **  **  ******  ******  **  ******  **  *  **********
   ***  ******  **  **      **      **     ****    ***    ***********
@@ -14,10 +12,8 @@ Index: kdemultimedia-4.3.0/libkcompactdisc/wmlib/include/wm_config.h
  #define DEFAULT_CD_DEVICE	"/dev/acd0"
  #else
  #define DEFAULT_CD_DEVICE	"/dev/acd0c"
-Index: kdemultimedia-4.3.0/libkcompactdisc/wmlib/plat_freebsd.c
-===================================================================
---- kdemultimedia-4.3.0.orig/libkcompactdisc/wmlib/plat_freebsd.c	2009-08-22 14:57:19.000000000 +0200
-+++ kdemultimedia-4.3.0/libkcompactdisc/wmlib/plat_freebsd.c	2009-08-22 14:57:37.000000000 +0200
+--- kdemultimedia-4.3.0.orig/libkcompactdisc/wmlib/plat_freebsd.c
++++ kdemultimedia-4.3.0/libkcompactdisc/wmlib/plat_freebsd.c
 @@ -26,7 +26,8 @@
   *
   */
@@ -28,3 +24,12 @@ Index: kdemultimedia-4.3.0/libkcompactdisc/wmlib/plat_freebsd.c
  
  #include <errno.h>
  #include <stdio.h>
+@@ -70,7 +71,7 @@
+ 
+ # define LEFT_PORT 0
+ # define RIGHT_PORT 1
+-# if __FreeBSD_version < 300000
++# if (__FreeBSD_version < 300000) && (__FreeBSD_kernel_version < 300000) 
+ #  include <scsi.h>
+ # endif
+ 
