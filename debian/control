@@ -5,11 +5,11 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
- kdelibs5-dev (>= 4:4.3.0), libknotificationitem-1-dev, libphonon-dev (>= 4:4.5.2),
+ kdelibs5-dev (>= 4:4.3.1), libknotificationitem-1-dev, libphonon-dev (>= 4:4.5.2),
  libasound2-dev (>= 1.0.14a) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libcdparanoia0-dev, libflac-dev, libmusicbrainz4-dev, libpulse-dev, libxine-dev,
  libogg-dev, libtag1-dev, libtheora-dev, libtunepimp-dev, libvorbis-dev, libx11-dev
-Standards-Version: 3.8.2
+Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdemultimedia
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdemultimedia

@@ -1,7 +1,19 @@
+kdemultimedia (4:4.3.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Fathi Boudra:
+
+  * Remove the kfreebsd patch - merged upstream.
+  * Bump KDE build dependencies to 4.3.1.
+  * Bump Standards-Version to 3.8.3 (no changes needed).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 31 Aug 2009 15:38:48 +0200
+
 kdemultimedia (4:4.3.0-3) unstable; urgency=low
 
-  * Add missing part to the kfreebsd patch.  Thanks to Petr Salinger again.
-   Really (Closes: #542639).
+  * Add missing part to the kfreebsd patch. Thanks to Petr Salinger again.
+    Really (Closes: #542639).
 
  -- Ana Beatriz Guerrero Lopez <ana@henry.aurel32.net>  Sun, 23 Aug 2009 14:18:22 +0200
 
