@@ -1,6 +1,6 @@
 --- a/libkcompactdisc/CMakeLists.txt
 +++ b/libkcompactdisc/CMakeLists.txt
-@@ -47,7 +47,7 @@
+@@ -47,7 +47,7 @@ endif (USE_WMLIB)
  
  kde4_add_library(kcompactdisc SHARED ${kcompactdisc_LIB_SRCS})
  
