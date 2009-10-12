@@ -1,9 +1,12 @@
-kdemultimedia (4:4.3.1-2) UNRELEASED; urgency=low
+kdemultimedia (4:4.3.2-1) unstable; urgency=low
 
+  * New upstream release.
+
+  +++ Changes by  KarlFerdinand Ebert:
   * Add source.lintian-overrides to ignore lintian warning about missing
     debug depends.
 
- -- Karl Ferdinand Ebert <kfebert@gmail.com>  Thu, 08 Oct 2009 16:22:44 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 13 Oct 2009 00:26:33 +0200
 
 kdemultimedia (4:4.3.1-1) unstable; urgency=low
 
