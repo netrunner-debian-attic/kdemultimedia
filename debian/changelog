@@ -2,6 +2,10 @@ kdemultimedia (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove myself from Uploaders.
+
  -- Lukasz Janyst <janyst@gmail.com>  Tue, 10 Nov 2009 00:27:25 +0100
 
 kdemultimedia (4:4.3.2-1) unstable; urgency=low
