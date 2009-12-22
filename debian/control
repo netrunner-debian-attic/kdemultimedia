@@ -11,7 +11,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  libogg-dev, libtag1-dev, libtheora-dev, libtunepimp-dev, libvorbis-dev, libx11-dev
 Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdemultimedia
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdemultimedia/#_trunk_packages_kdemultimedia_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdemultimedia
 
 Package: kdemultimedia
