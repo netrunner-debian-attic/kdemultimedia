@@ -21,7 +21,6 @@ usr/share/kde4/apps/kmix/kmixui.rc
 usr/share/kde4/apps/kmix/pics/kmixdocked.png
 usr/share/kde4/apps/kmix/pics/kmixdocked_error.png
 usr/share/kde4/apps/kmix/pics/kmixdocked_mute.png
-usr/share/kde4/apps/kmix/pics/mix_record.png
 usr/share/kde4/apps/kmix/pics/mixer-ac97.png
 usr/share/kde4/apps/kmix/pics/mixer-capture.png
 usr/share/kde4/apps/kmix/pics/mixer-cd.png

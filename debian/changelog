@@ -7,7 +7,15 @@ kdemultimedia (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Feb 2010 20:43:13 +0100
+  [ George Kiagiadakis ]
+  * Add myself to uploaders.
+  * Bump kdelibs-dev build dependency to >= 4:4.4.0.
+  * Drop libknotificationitem-1-dev build dependency.
+  * Refresh patches.
+  * Rename libcdparanoia0-dev to libcdparanoia-dev in build dependencies.
+  * Update installed files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Feb 2010 16:14:43 +0200
 
 kdemultimedia (4:4.3.4-1) unstable; urgency=low
 
