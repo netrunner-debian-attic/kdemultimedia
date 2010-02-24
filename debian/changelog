@@ -1,4 +1,4 @@
-kdemultimedia (4:4.4.0-0r1) UNRELEASED; urgency=low
+kdemultimedia (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
     - the KMix popup closes correctly. (Closes: #557081)
@@ -15,7 +15,7 @@ kdemultimedia (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Rename libcdparanoia0-dev to libcdparanoia-dev in build dependencies.
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Feb 2010 16:14:43 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:35 +0200
 
 kdemultimedia (4:4.3.4-1) unstable; urgency=low
 
