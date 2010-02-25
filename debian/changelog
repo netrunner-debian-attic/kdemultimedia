@@ -1,6 +1,6 @@
 kdemultimedia (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
     - the KMix popup closes correctly. (Closes: #557081)
 
   [ Modestas Vainius ]
