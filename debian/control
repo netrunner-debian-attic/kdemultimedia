@@ -19,7 +19,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdemultimedia
 Package: kdemultimedia
 Section: kde
 Architecture: all
-Depends: dragonplayer (>= ${source:Version}),
+Depends: ${misc:Depends}, dragonplayer (>= ${source:Version}),
  kdemultimedia-kio-plugins (>= ${source:Version}),
  juk (>= ${source:Version}), kmix (>= ${source:Version}),
  kscd (>= ${source:Version})
@@ -39,7 +39,7 @@ Package: kdemultimedia-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdebase-runtime-dbg
+Depends: ${misc:Depends}, kdebase-runtime-dbg
 Suggests: kdemultimedia (= ${source:Version})
 Description: debugging symbols for the KDE 4 multimedia module
  This package contains debugging files used to investigate problems with
@@ -49,7 +49,7 @@ Package: kdemultimedia-dev
 Section: devel
 Architecture: any
 Depends: ${sameVersionDep:kdelibs5-dev:kdemultimedia-kio-plugins},
- libkcddb-dev (= ${binary:Version}),
+ ${misc:Depends}, libkcddb-dev (= ${binary:Version}),
  kdemultimedia-kio-plugins (= ${binary:Version})
 Replaces: juk (<< 4:4.1.80), kscd (<< 4:4.1.80), kxim (<< 4:4.1.80)
 Description: development files for the KDE 4 multimedia module
@@ -59,7 +59,7 @@ Description: development files for the KDE 4 multimedia module
 Package: kdemultimedia-kio-plugins
 section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, libkcddb4 (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkcddb4 (= ${binary:Version})
 Suggests: lame
 Replaces: kscd (<< 4:4.1.80)
 Description: transparent audio CD access for KDE 4 applications
@@ -71,7 +71,7 @@ Description: transparent audio CD access for KDE 4 applications
 Package: juk
 Section: sound
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: k3b
 Description: music jukebox for KDE 4
  JuK is a powerful music player capable of managing a large music collection.
@@ -89,7 +89,7 @@ Description: music jukebox for KDE 4
 Package: kmix
 Section: sound
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: x-audio-mixer
 Description: volume control and mixer for KDE 4
  KMix is an audio device mixer, used to adjust volume, select recording inputs,
@@ -100,7 +100,7 @@ Description: volume control and mixer for KDE 4
 Package: kscd
 Section: sound
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: audio CD player for KDE 4
  KsCD is an audio CD player.  It uses the Compact Disc DataBase to
  fetch album information automatically.
@@ -110,7 +110,7 @@ Description: audio CD player for KDE 4
 Package: libkcddb4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: CDDB library for KDE 4 (runtime)
  The KDE Compact Disc DataBase library provides an API for KDE 4 applications
  to fetch and submit audio CD information over the internet.
