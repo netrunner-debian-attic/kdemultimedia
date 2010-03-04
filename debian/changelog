@@ -1,4 +1,4 @@
-kdemultimedia (4:4.4.1-0r1) UNRELEASED; urgency=low
+kdemultimedia (4:4.4.1-0rc1) UNRELEASED; urgency=low
 
   * New upstream release:
     - the KMix popup closes correctly. (Closes: #557081)
@@ -23,7 +23,7 @@ kdemultimedia (4:4.4.1-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Add dependency on ${misc:Depends} in all the packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Mar 2010 15:45:21 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 21:02:25 +0200
 
 kdemultimedia (4:4.3.4-1) unstable; urgency=low
 
