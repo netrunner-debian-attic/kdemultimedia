@@ -11,6 +11,7 @@ kdemultimedia (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Bump pkg-kde-tools build dependency to 0.6.4.
   * Bump phonon build dependency to 4:4.6.0really4.3.80.
+  * Bump libtag1-dev build dependency to 1.6.
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
