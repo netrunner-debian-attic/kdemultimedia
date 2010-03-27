@@ -1,8 +1,4 @@
-usr/lib/kde4/kcm_cddb.so
 usr/lib/libkcddb.so.4
 usr/lib/libkcddb.so.4.4.0
 usr/lib/libkcompactdisc.so.4
 usr/lib/libkcompactdisc.so.4.4.0
-usr/share/kde4/apps/kconf_update/kcmcddb-emailsettings.upd
-usr/share/kde4/config.kcfg/libkcddb.kcfg
-usr/share/kde4/services/libkcddb.desktop
