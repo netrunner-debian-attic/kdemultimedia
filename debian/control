@@ -126,7 +126,7 @@ Description: simple KDE video player
   - Bundled with a simple web-page KPart.
   - Starts quickly.
  .
- This is the KDE version of the Codeine video player.
+ This is the KDE 4 version of the Codeine video player.
  .
  This package is part of the KDE multimedia module.
 
