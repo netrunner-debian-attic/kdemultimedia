@@ -80,6 +80,7 @@ Package: kscd
 Section: sound
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: kde-config-cddb
 Description: audio CD player for KDE
  KsCD is an audio CD player.  It uses the Compact Disc DataBase to
  fetch album information automatically.

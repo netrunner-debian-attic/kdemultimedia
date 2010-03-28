@@ -13,8 +13,10 @@ kdemultimedia (4:4.4.2-0rc1) UNRELEASED; urgency=low
   * Bump phonon build dependency to 4:4.6.0really4.3.80.
   * Bump libtag1-dev build dependency to 1.6.
   * Split off cddb KCM from libkcddb4 to its own kde-config-cddb package.
+  * Make kscd suggest kde-config-cddb.
   * Move kdemultimedia-dev and kdemultimedia-dbg to the end of debian/control.
   * Add symbol file for libkcddb4 package.
+  * Replace KDE 4 with KDE in descriptions.
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
