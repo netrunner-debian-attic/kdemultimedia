@@ -116,7 +116,7 @@ Description: CDDB library for KDE (development)
  This package is part of the KDE multimedia module.
 
 Package: dragonplayer
-Section: kde
+Section: video
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: simple KDE video player
