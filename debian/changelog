@@ -1,8 +1,12 @@
-kdemultimedia (4:4.4.2-2) UNRELEASED; urgency=low
+kdemultimedia (4:4.4.3-0r1) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ Modestas Vainius ]
   * Change dragonplayer section to video.
+  * Bump kde-sc-dev-latest build dependency to 4.4.3.
 
- -- Modestas Vainius <modax@debian.org>  Fri, 09 Apr 2010 22:09:13 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:06 +0300
 
 kdemultimedia (4:4.4.2-1) experimental; urgency=low
 
