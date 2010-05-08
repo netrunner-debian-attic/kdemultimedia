@@ -1,3 +1,9 @@
+kdemultimedia (4:4.4.3-3) UNRELEASED; urgency=low
+
+  * Limit dh_xine call to dragonplayer package.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 09 May 2010 00:10:35 +0300
+
 kdemultimedia (4:4.4.3-2) unstable; urgency=low
 
   * Update libkcddb4 symbol file for armel. Fixes FTBFS.

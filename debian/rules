@@ -5,4 +5,4 @@ include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 DEB_DH_MAKESHLIBS_ARGS_libkcddb4 := -V'libkcddb4 (>= 4:4.3.0)'
 
 binary-predeb/dragonplayer::
-	dh_xine
+	dh_xine -pdragonplayer
