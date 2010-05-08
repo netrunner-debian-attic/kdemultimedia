@@ -237,22 +237,22 @@ libkcompactdisc.so.4 libkcddb4 #MINVER#
  _ZTI12KCompactDisc@Base 4:4.3.4
  _ZTS12KCompactDisc@Base 4:4.3.4
  _ZTV12KCompactDisc@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)alsa_close@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)alsa_open@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)alsa_play@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)alsa_stop@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)buffer_size@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)buffer_time@Base 4:4.3.4
+ (arch=linux-any)alsa_close@Base 4:4.3.4
+ (arch=linux-any)alsa_open@Base 4:4.3.4
+ (arch=linux-any)alsa_play@Base 4:4.3.4
+ (arch=linux-any)alsa_stop@Base 4:4.3.4
+ (arch=linux-any)buffer_size@Base 4:4.3.4
+ (arch=linux-any)buffer_time@Base 4:4.3.4
  cddb_discid@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)channels@Base 4:4.3.4
+ (arch=linux-any)channels@Base 4:4.3.4
  free_cdtext@Base 4:4.3.4
  free_cdtext_info@Base 4:4.3.4
  free_cdtext_info_block@Base 4:4.3.4
  freeup@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)gen_cdda_close@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)gen_cdda_init@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)gen_cdda_open@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)gen_cdda_read@Base 4:4.3.4
+ (arch=linux-any)gen_cdda_close@Base 4:4.3.4
+ (arch=linux-any)gen_cdda_init@Base 4:4.3.4
+ (arch=linux-any)gen_cdda_open@Base 4:4.3.4
+ (arch=linux-any)gen_cdda_read@Base 4:4.3.4
  gen_close@Base 4:4.3.4
  gen_closetray@Base 4:4.3.4
  gen_eject@Base 4:4.3.4
@@ -277,12 +277,12 @@ libkcompactdisc.so.4 libkcddb4 #MINVER#
  malloc_cdtext_info_block@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)max_volume@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)min_volume@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)new_rate@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)period_size@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)period_time@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)rate@Base 4:4.3.4
+ (arch=linux-any)new_rate@Base 4:4.3.4
+ (arch=linux-any)period_size@Base 4:4.3.4
+ (arch=linux-any)period_time@Base 4:4.3.4
+ (arch=linux-any)rate@Base 4:4.3.4
  sendscsi@Base 4:4.3.4
- (arch=!kfreebsd-amd64 !kfreebsd-i386)setup_alsa@Base 4:4.3.4
+ (arch=linux-any)setup_alsa@Base 4:4.3.4
  setup_soundsystem@Base 4:4.3.4
  sony_fixup@Base 4:4.3.4
  toshiba_fixup@Base 4:4.3.4

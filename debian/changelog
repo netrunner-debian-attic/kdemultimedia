@@ -5,6 +5,7 @@ kdemultimedia (4:4.4.3-2) unstable; urgency=low
     1.1.16.3) for it (Closes: #575119).
   * Show kmix in all desktop environments (patch 01_kmix_showeverywhere.diff)
     (Closes: #544233).
+  * Use arch=linux-any tag for alsa/linux specific symbols in the symbol file.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 08 May 2010 22:57:52 +0300
 
