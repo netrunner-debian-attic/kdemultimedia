@@ -9,7 +9,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.3),
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), quilt, pkg-kde-tools (>= 0.6.4),
  kdelibs5-dev (>= 4:4.4), libphonon-dev (>= 4:4.6.0really4.3.80),
  libasound2-dev (>= 1.0.14a) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
- libcdparanoia-dev, libflac-dev, libmusicbrainz4-dev, libpulse-dev, libxine-dev,
+ libcdparanoia-dev, libflac-dev, libmusicbrainz4-dev, libpulse-dev, libxine-dev (>= 1.1.16.3),
  libogg-dev, libtag1-dev (>= 1.6), libtheora-dev, libtunepimp-dev, libvorbis-dev, libx11-dev
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
@@ -118,7 +118,7 @@ Description: CDDB library for KDE (development)
 Package: dragonplayer
 Section: video
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${xine-x:Depends}
 Description: simple KDE video player
  A video player with a different philosophy: Simple, uncluttered interface.
  .
