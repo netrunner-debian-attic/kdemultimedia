@@ -1,3 +1,9 @@
+kdemultimedia (4:4.4.3-2) unstable; urgency=low
+
+  * Update libkcddb4 symbol file for armel. Fixes FTBFS.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 08 May 2010 22:57:52 +0300
+
 kdemultimedia (4:4.4.3-1) unstable; urgency=low
 
   * New upstream release.

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.2 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.3 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkcddb.so.4 libkcddb4 #MINVER#
  _ZN10ConfigBase10setReplyToERK7QString@Base 4:4.3.4
  _ZN10ConfigBase11setHostnameERK7QString@Base 4:4.3.4
@@ -157,29 +157,10 @@ libkcddb.so.4 libkcddb4 #MINVER#
  _ZTSN5KCDDB6ConfigE@Base 4:4.3.4
  _ZTSN5KCDDB9TrackInfoE@Base 4:4.3.4
  _ZTV10ConfigBase@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB10HTTPLookupE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB10HTTPSubmitE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB10SMTPSubmitE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB11CDDBPLookupE@Base 4:4.3.4
  _ZTVN5KCDDB12CDInfoDialogE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB12LookupThreadE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB14SyncHTTPLookupE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB14SyncHTTPSubmitE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB14SyncSMTPSubmitE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB15AsyncHTTPLookupE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB15AsyncHTTPSubmitE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB15AsyncSMTPSubmitE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB15SyncCDDBPLookupE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB16AsyncCDDBPLookupE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB17MusicBrainzLookupE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB20CDInfoEncodingWidgetE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB22AsyncMusicBrainzLookupE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB4CDDBE@Base 4:4.3.4
  _ZTVN5KCDDB6CDInfoE@Base 4:4.3.4
  _ZTVN5KCDDB6ClientE@Base 4:4.3.4
  _ZTVN5KCDDB6ConfigE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB6LookupE@Base 4:4.3.4
- (arch=armel)_ZTVN5KCDDB6SubmitE@Base 4:4.3.4
  _ZTVN5KCDDB9TrackInfoE@Base 4:4.3.4
  (c++)"non-virtual thunk to KCDDB::CDInfoDialog::~CDInfoDialog()@Base" 4:4.3.4
 libkcompactdisc.so.4 libkcddb4 #MINVER#
@@ -256,10 +237,6 @@ libkcompactdisc.so.4 libkcddb4 #MINVER#
  _ZTI12KCompactDisc@Base 4:4.3.4
  _ZTS12KCompactDisc@Base 4:4.3.4
  _ZTV12KCompactDisc@Base 4:4.3.4
- (arch=armel)_ZTV14ProducerWidget@Base 4:4.3.4
- (arch=armel)_ZTV19KCompactDiscPrivate@Base 4:4.3.4
- (arch=armel)_ZTV24KWMLibCompactDiscPrivate@Base 4:4.3.4
- (arch=armel)_ZTV25KPhononCompactDiscPrivate@Base 4:4.3.4
  (arch=!kfreebsd-amd64 !kfreebsd-i386)alsa_close@Base 4:4.3.4
  (arch=!kfreebsd-amd64 !kfreebsd-i386)alsa_open@Base 4:4.3.4
  (arch=!kfreebsd-amd64 !kfreebsd-i386)alsa_play@Base 4:4.3.4
