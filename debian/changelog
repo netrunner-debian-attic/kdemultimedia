@@ -1,6 +1,8 @@
 kdemultimedia (4:4.4.3-3) UNRELEASED; urgency=low
 
   * Limit dh_xine call to dragonplayer package.
+  * Do not fail if there are missing symbols. libkcddb4 is not important enough
+    to warrant such a FTBFS.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 09 May 2010 00:10:35 +0300
 
