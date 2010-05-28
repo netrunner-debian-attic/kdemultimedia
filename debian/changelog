@@ -8,6 +8,8 @@ kdemultimedia (4:4.4.4-0r1) UNRELEASED; urgency=low
     to warrant such a FTBFS.
   * Bump pkg-kde-tools build dependency to (>= 0.9) for HTML_INSTALL_DIR
     switch and 3.0 (quilt) source format support.
+  * Switch to 3.0 (quilt) source package format and original tar.bz2
+    tarballs.
 
   [ Sune Vuorela ]
   * Change email address
