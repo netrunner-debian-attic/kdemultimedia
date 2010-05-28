@@ -10,6 +10,7 @@ kdemultimedia (4:4.4.4-0r1) UNRELEASED; urgency=low
     switch and 3.0 (quilt) source format support.
   * Switch to 3.0 (quilt) source package format and original tar.bz2
     tarballs.
+  * Replace usr/share/doc/kde4 references with usr/share/doc/kde.
 
   [ Sune Vuorela ]
   * Change email address
