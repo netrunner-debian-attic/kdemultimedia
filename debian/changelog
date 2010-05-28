@@ -1,4 +1,6 @@
-kdemultimedia (4:4.4.3-3) UNRELEASED; urgency=low
+kdemultimedia (4:4.4.4-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Modestas Vainius ]
   * Limit dh_xine call to dragonplayer package.
@@ -10,7 +12,7 @@ kdemultimedia (4:4.4.3-3) UNRELEASED; urgency=low
   * Add colin guthries kmix pulse audio support patches.
     * TODO: discuss this!
 
- -- Sune Vuorela <sune@debian.org>  Sat, 22 May 2010 13:28:59 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:18 +0300
 
 kdemultimedia (4:4.4.3-2) unstable; urgency=low
 
