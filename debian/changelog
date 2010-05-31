@@ -1,4 +1,4 @@
-kdemultimedia (4:4.4.4-0r1) UNRELEASED; urgency=low
+kdemultimedia (4:4.4.4-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -22,7 +22,7 @@ kdemultimedia (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Add colin guthries kmix pulse audio support patches.
     * TODO: discuss this!
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:18 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Jun 2010 01:15:16 +0300
 
 kdemultimedia (4:4.4.3-2) unstable; urgency=low
 
