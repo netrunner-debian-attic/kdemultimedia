@@ -19,8 +19,7 @@ kdemultimedia (4:4.4.4-1) UNRELEASED; urgency=low
 
   [ Sune Vuorela ]
   * Change email address
-  * Add colin guthries kmix pulse audio support patches.
-    * TODO: discuss this!
+  * Add Colin Guthrie's kmix pulse audio support patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Jun 2010 01:15:16 +0300
 

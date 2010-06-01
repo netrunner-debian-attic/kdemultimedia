@@ -1,10 +1,10 @@
-taken from 
-  url = git://colin.guthr.ie/kdemultimedia
-git diff origin/master..origin/pulse
-
-head of master is f3d55c2cf815a6506bb6d0489f0041b9c42fad44
-head of pulse is 313395c4bc7754075d985e5228fc1873324aca5d
-
+Description: improve PulseAudio support in kmix
+ origin/pulse-4.4.4 is a29383a2109856b9285bc42a4b119ab7874a1da3
+ origin/master is 9bd1ce22b88dd4a2777fb55d02b74839c27b2aba
+Author: Colin Guthrie <cguthrie@mandriva.org>
+Origin: backport, git://colin.guthr.ie/kdemultimedia, git diff origin/master..origin/pulse-4.4.4
+Forwarded: not-needed
+Last-Update: 2010-06-01
 
 --- a/kmix/CMakeLists.txt
 +++ b/kmix/CMakeLists.txt
@@ -68,6 +68,30 @@ head of pulse is 313395c4bc7754075d985e5228fc1873324aca5d
              }
  
  /*
+@@ -326,19 +326,22 @@ void DialogViewConfiguration::apply()
+    prepareControls(model, false, oldControlset, newControlset);
+ 
+ 	// --- Step 2: Copy controls
++	QString tabName = "Base";
+ 	oldControlset.clear();
+ 	std::vector<ProfControl*>::const_iterator itEnd = newControlset.end();
+ 	for ( std::vector<ProfControl*>::const_iterator it = newControlset.begin(); it != itEnd; ++it)
+ 	{
+ 	  ProfControl* control = *it;
+ 	  control->id = "^" + control->id + "$";   // Create a regexp from the control name
++	  if ( ! control->tab.isEmpty() )
++	      tabName = control->tab;
+ 	  kDebug() << "Add control " << control->id;
+           oldControlset.push_back(control);
+ 	}
+ 	ProfControl* fallbackMatchAllControl = new ProfControl;
+ 	fallbackMatchAllControl->id   = "^.*$";
+ 	fallbackMatchAllControl->subcontrols  = ".*";
+-	fallbackMatchAllControl->tab  = "Base";
++	fallbackMatchAllControl->tab  = tabName;
+ 	fallbackMatchAllControl->show = "extended";
+ 	oldControlset.push_back(fallbackMatchAllControl);
+ 	
 --- a/kmix/kmix-platforms.cpp
 +++ b/kmix/kmix-platforms.cpp
 @@ -129,6 +129,10 @@ MixerFactory g_mixerFactories[] = {
@@ -2648,7 +2672,7 @@ head of pulse is 313395c4bc7754075d985e5228fc1873324aca5d
 +            QList<QString> new_mix_devices;
 +            MixSet ms = _mixer->getMixSet();
 +            for (int i=0; i < ms.count(); ++i)
-+                new_mix_devices.append(ms[i]->id());
++                new_mix_devices.append("^" + ms[i]->id() + "$");
 +            std::vector<ProfControl*>::const_iterator itEnd = _guiprof->_controls.end();
 +            for ( std::vector<ProfControl*>::const_iterator it = _guiprof->_controls.begin(); it != itEnd; ++it)
 +                new_mix_devices.removeAll((*it)->id);
