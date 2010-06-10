@@ -5,6 +5,7 @@ Author: Colin Guthrie <cguthrie@mandriva.org>
 Origin: backport, git://colin.guthr.ie/kdemultimedia, git diff origin/master..origin/pulse-4.4.4
 Forwarded: not-needed
 Last-Update: 2010-06-01
+Fixed-For: 4.5.0
 
 --- a/kmix/CMakeLists.txt
 +++ b/kmix/CMakeLists.txt
