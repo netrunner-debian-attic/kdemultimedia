@@ -1,9 +1,13 @@
-kdemultimedia (4:4.4.5-1) UNRELEASED; urgency=low
+kdemultimedia (4:4.4.5-1) unstable; urgency=low
 
+  [ Modestas Vainius ]
   * New upstream release.
   * Bump kde-sc-dev-latest build dependency to 4:4.4.5.
 
- -- Modestas Vainius <modax@debian.org>  Sun, 04 Jul 2010 19:00:51 +0300
+  [ Sune Vuorela ]
+  * Update descriptions
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 18 Jul 2010 12:25:35 +0200
 
 kdemultimedia (4:4.4.4-1) unstable; urgency=low
 
