@@ -13,8 +13,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  libogg-dev, libtag1-dev (>= 1.6), libtheora-dev, libtunepimp-dev, libvorbis-dev, libx11-dev
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdemultimedia/#_trunk_packages_kdemultimedia_
-Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdemultimedia
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdemultimedia.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdemultimedia.git
 
 Package: kdemultimedia
 Section: kde
