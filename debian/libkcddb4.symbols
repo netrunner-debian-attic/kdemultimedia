@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.3 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.5.1 amd64
 libkcddb.so.4 libkcddb4 #MINVER#
  _ZN10ConfigBase10setReplyToERK7QString@Base 4:4.3.4
  _ZN10ConfigBase11setHostnameERK7QString@Base 4:4.3.4
@@ -29,10 +29,10 @@ libkcddb.so.4 libkcddb4 #MINVER#
  _ZN5KCDDB12CDInfoDialog13artistChangedERK7QString@Base 4:4.3.4
  _ZN5KCDDB12CDInfoDialog13slotNextTrackEv@Base 4:4.3.4
  _ZN5KCDDB12CDInfoDialog16staticMetaObjectE@Base 4:4.3.4
- _ZN5KCDDB12CDInfoDialog17slotTrackSelectedEP14Q3ListViewItem@Base 4:4.3.4
+ _ZN5KCDDB12CDInfoDialog17slotTrackSelectedERK11QModelIndex@Base 4:4.5.1
  _ZN5KCDDB12CDInfoDialog18slotChangeEncodingEv@Base 4:4.3.4
  _ZN5KCDDB12CDInfoDialog19slotMultipleArtistsEb@Base 4:4.3.4
- _ZN5KCDDB12CDInfoDialog22slotTrackDoubleClickedEP14Q3ListViewItemRK6QPointi@Base 4:4.3.4
+ _ZN5KCDDB12CDInfoDialog22slotTrackDoubleClickedERK11QModelIndex@Base 4:4.5.1
  _ZN5KCDDB12CDInfoDialog4playEi@Base 4:4.3.4
  _ZN5KCDDB12CDInfoDialog7Private9SEPARATORE@Base 4:4.3.4
  _ZN5KCDDB12CDInfoDialog7setInfoERKNS_6CDInfoERK5QListIjE@Base 4:4.3.4
