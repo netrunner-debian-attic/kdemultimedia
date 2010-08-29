@@ -10,7 +10,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  kdelibs5-dev (>= 4:4.5), libphonon-dev (>= 4:4.6.0really4.3.80),
  libasound2-dev (>= 1.0.14a) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libcdparanoia-dev, libflac-dev, libmusicbrainz4-dev, libpulse-dev, libxine-dev (>= 1.1.16.3),
- libogg-dev, libtag1-dev (>= 1.6), libtheora-dev, libtunepimp-dev, libvorbis-dev, libx11-dev
+ libogg-dev, libtag1-dev (>= 1.6), libtheora-dev, libtunepimp-dev, libvorbis-dev, libx11-dev,
+ libavcodec-dev, libswscale-dev, libavformat-dev
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdemultimedia.git
