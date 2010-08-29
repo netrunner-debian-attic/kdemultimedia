@@ -12,6 +12,7 @@ kdemultimedia (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Add build dependencies to libavcodec-dev, libswscale-dev and
     libavformat-dev to build the ffmpeg thumbnailer plugin.
   * Update installed files.
+  * Add new package: ffmpegthumbs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 Aug 2010 13:26:59 +0300
 

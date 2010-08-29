@@ -24,7 +24,7 @@ Depends: ${misc:Depends}, dragonplayer (>= ${source:Version}),
  kdemultimedia-kio-plugins (>= ${source:Version}),
  juk (>= ${source:Version}), kmix (>= ${source:Version}),
  kscd (>= ${source:Version}), kde-config-cddb (>= ${source:Version})
-Recommends: mplayerthumbs (>= ${source:Version})
+Recommends: ffmpegthumbs (>= ${source:Version}) | mplayerthumbs (>= ${source:Version})
 Description: multimedia applications from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -137,8 +137,19 @@ Package: mplayerthumbs
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, mplayer
-Description: video thumbnail generator
+Description: video thumbnail generator using mplayer
  MPlayerThumbs is a video thumbnail generator for KDE file managers
+ like Dolphin and Konqueror.  It enables them to show preview images
+ of video files.
+ .
+ This package is part of the KDE multimedia module.
+
+Package: ffmpegthumbs
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: video thumbnail generator using ffmpeg
+ FFMpegThumbs is a video thumbnail generator for KDE file managers
  like Dolphin and Konqueror.  It enables them to show preview images
  of video files.
  .
