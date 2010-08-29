@@ -8,10 +8,12 @@ usr/share/autostart/restore_kmix_volumes.desktop
 usr/share/doc/kde/HTML/en/kmix/common
 usr/share/doc/kde/HTML/en/kmix/index.cache.bz2
 usr/share/doc/kde/HTML/en/kmix/index.docbook
-usr/share/doc/kde/HTML/en/kmix/kmix-channel-playback.png
-usr/share/doc/kde/HTML/en/kmix/kmix-channel-record.png
-usr/share/doc/kde/HTML/en/kmix/kmix-channel-switches.png
-usr/share/doc/kde/HTML/en/kmix/kmix-window.png
+usr/share/doc/kde/HTML/en/kmix/kmix-channels.png
+usr/share/doc/kde/HTML/en/kmix/kmix-configure.png
+usr/share/doc/kde/HTML/en/kmix/kmix-file.png
+usr/share/doc/kde/HTML/en/kmix/kmix-master.png
+usr/share/doc/kde/HTML/en/kmix/kmix-options.png
+usr/share/doc/kde/HTML/en/kmix/kmix.png
 usr/share/icons/hicolor/128x128/apps/kmix.png
 usr/share/icons/hicolor/16x16/apps/kmix.png
 usr/share/icons/hicolor/32x32/apps/kmix.png
