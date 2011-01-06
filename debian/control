@@ -78,16 +78,16 @@ Description: volume control and mixer
  .
  This package is part of the KDE multimedia module.
 
-Package: kscd
-Section: sound
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: kde-config-cddb
-Description: audio CD player
- KsCD is an audio CD player.  It uses the Compact Disc DataBase to
- fetch album information automatically.
- .
- This package is part of the KDE multimedia module.
+#Package: kscd
+#Section: sound
+#Architecture: any
+#Depends: ${shlibs:Depends}, ${misc:Depends}
+#Suggests: kde-config-cddb
+#Description: audio CD player
+# KsCD is an audio CD player.  It uses the Compact Disc DataBase to
+# fetch album information automatically.
+# .
+# This package is part of the KDE multimedia module.
 
 Package: libkcddb4
 Section: libs

@@ -15,6 +15,10 @@ kdemultimedia (4:4.5.90-0r1) UNRELEASED; urgency=low
   * Add new package: ffmpegthumbs.
   * Update libkcddb4.symbols.
 
+  [ José Manuel Santamaría Lema ]
+  * Update installed files.
+  * Remove kscd package.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 Aug 2010 13:26:59 +0300
 
 kdemultimedia (4:4.4.5-1) unstable; urgency=low
