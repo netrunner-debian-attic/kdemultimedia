@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.1 amd64
+# SymbolsHelper-Confirmed: 4:4.5.95 amd64
 libkcddb.so.4 libkcddb4 #MINVER#
  _ZN10ConfigBase10setReplyToERK7QString@Base 4:4.3.4
  _ZN10ConfigBase11setHostnameERK7QString@Base 4:4.3.4
@@ -143,7 +143,8 @@ libkcddb.so.4 libkcddb4 #MINVER#
  _ZNK5KCDDB9TrackInfo8toStringEv@Base 4:4.3.4
  _ZNK5KCDDB9TrackInfoeqERKS0_@Base 4:4.3.4
  _ZNK5KCDDB9TrackInfoneERKS0_@Base 4:4.3.4
- (optional=templinst)_ZNSt6vectorISsSaISsEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPSsS1_EERKSs@Base 4:4.3.4
+ (optional=templinst)_ZNSt6vectorIPN11MusicBrainz13ReleaseResultESaIS2_EEaSERKS4_@Base 4:4.5.95
+#MISSING: 4:4.5.95# (optional=templinst)_ZNSt6vectorISsSaISsEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPSsS1_EERKSs@Base 4:4.3.4
  _ZTI10ConfigBase@Base 4:4.3.4
  _ZTIN5KCDDB12CDInfoDialogE@Base 4:4.3.4
  _ZTIN5KCDDB6CDInfoE@Base 4:4.3.4
