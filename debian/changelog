@@ -17,8 +17,8 @@ kdemultimedia (4:4.5.95-0r1) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Update installed files.
-  * Remove kscd package.
   * Add debian/not-installed file.
+  * Build depend on libmusicbrainz3-dev instead of libmusicbrainz4-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 Aug 2010 13:26:59 +0300
 

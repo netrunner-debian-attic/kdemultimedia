@@ -9,7 +9,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), pkg-kde-tools (>= 0.9),
  kdelibs5-dev (>= 4:4.5.95), libphonon-dev (>= 4:4.6.0really4.3.80),
  libasound2-dev (>= 1.0.14a) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
- libcdparanoia-dev, libflac-dev, libmusicbrainz4-dev, libpulse-dev, libxine-dev (>= 1.1.16.3),
+ libcdparanoia-dev, libflac-dev, libmusicbrainz3-dev, libpulse-dev, libxine-dev (>= 1.1.16.3),
  libogg-dev, libtag1-dev (>= 1.6), libtheora-dev, libtunepimp-dev, libvorbis-dev, libx11-dev,
  libavcodec-dev, libswscale-dev, libavformat-dev
 Standards-Version: 3.8.4
@@ -23,8 +23,7 @@ Architecture: all
 Depends: ${misc:Depends}, dragonplayer (>= ${source:Version}),
  kdemultimedia-kio-plugins (>= ${source:Version}),
  juk (>= ${source:Version}), kmix (>= ${source:Version}),
-# kscd (>= ${source:Version}),
- kde-config-cddb (>= ${source:Version})
+ kscd (>= ${source:Version}), kde-config-cddb (>= ${source:Version})
 Recommends: ffmpegthumbs (>= ${source:Version}) | mplayerthumbs (>= ${source:Version})
 Description: multimedia applications from the official KDE release
  KDE is produced by an international technology team that creates free and open
@@ -79,16 +78,16 @@ Description: volume control and mixer
  .
  This package is part of the KDE multimedia module.
 
-#Package: kscd
-#Section: sound
-#Architecture: any
-#Depends: ${shlibs:Depends}, ${misc:Depends}
-#Suggests: kde-config-cddb
-#Description: audio CD player
-# KsCD is an audio CD player.  It uses the Compact Disc DataBase to
-# fetch album information automatically.
-# .
-# This package is part of the KDE multimedia module.
+Package: kscd
+Section: sound
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: kde-config-cddb
+Description: audio CD player
+ KsCD is an audio CD player.  It uses the Compact Disc DataBase to
+ fetch album information automatically.
+ .
+ This package is part of the KDE multimedia module.
 
 Package: libkcddb4
 Section: libs
