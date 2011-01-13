@@ -7,7 +7,7 @@ kdemultimedia (4:4.5.95-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
-  * Bump kdelibs5-dev build dependency to version 4:4.5.
+  * Bump kdelibs5-dev build dependency to version 4:4.5.95.
   * Drop patch 02_colin_guthrie_pulseaudio_fixes.diff, applied upstream.
   * Add build dependencies to libavcodec-dev, libswscale-dev and
     libavformat-dev to build the ffmpeg thumbnailer plugin.
