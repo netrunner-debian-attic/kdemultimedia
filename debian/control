@@ -23,7 +23,8 @@ Architecture: all
 Depends: ${misc:Depends}, dragonplayer (>= ${source:Version}),
  kdemultimedia-kio-plugins (>= ${source:Version}),
  juk (>= ${source:Version}), kmix (>= ${source:Version}),
- kscd (>= ${source:Version}), kde-config-cddb (>= ${source:Version})
+# kscd (>= ${source:Version}),
+ kde-config-cddb (>= ${source:Version})
 Recommends: ffmpegthumbs (>= ${source:Version}) | mplayerthumbs (>= ${source:Version})
 Description: multimedia applications from the official KDE release
  KDE is produced by an international technology team that creates free and open
