@@ -7,7 +7,7 @@ kdemultimedia (4:4.6.0-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
-  * Bump kdelibs5-dev build dependency to version 4:4.5.95.
+  * Bump kdelibs5-dev build dependency to version 4:4.6.
   * Drop patch 02_colin_guthrie_pulseaudio_fixes.diff, applied upstream.
   * Add build dependencies to libavcodec-dev, libswscale-dev and
     libavformat-dev to build the ffmpeg thumbnailer plugin.
@@ -19,6 +19,7 @@ kdemultimedia (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Add debian/not-installed file.
   * Build depend on libmusicbrainz3-dev instead of libmusicbrainz4-dev.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 Aug 2010 13:26:59 +0300
 
