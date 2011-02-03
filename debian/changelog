@@ -22,6 +22,10 @@ kdemultimedia (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Bump S-V to 3.9.1; add Breaks next to Replaces where needed.
   * Add debian/kdemultimedia-kio-plugins.lintian-overrides.
 
+  [ Pino Toscano ]
+  * Use wildcard architectures:
+    - !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 -> linux-any
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 Aug 2010 13:26:59 +0300
 
 kdemultimedia (4:4.4.5-1) unstable; urgency=low
