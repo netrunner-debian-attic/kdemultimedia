@@ -20,6 +20,7 @@ kdemultimedia (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Build depend on libmusicbrainz3-dev instead of libmusicbrainz4-dev.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
   * Bump S-V to 3.9.1; add Breaks next to Replaces where needed.
+  * Add debian/kdemultimedia-kio-plugins.lintian-overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 Aug 2010 13:26:59 +0300
 
