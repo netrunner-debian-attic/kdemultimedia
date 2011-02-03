@@ -12,7 +12,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.0),
  libcdparanoia-dev, libflac-dev, libmusicbrainz3-dev, libpulse-dev, libxine-dev (>= 1.1.16.3),
  libogg-dev, libtag1-dev (>= 1.6), libtheora-dev, libtunepimp-dev, libvorbis-dev, libx11-dev,
  libavcodec-dev, libswscale-dev, libavformat-dev
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdemultimedia.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdemultimedia.git
