@@ -1,6 +1,7 @@
 kdemultimedia (4:4.6.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update installed files.
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
@@ -11,12 +12,10 @@ kdemultimedia (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Drop patch 02_colin_guthrie_pulseaudio_fixes.diff, applied upstream.
   * Add build dependencies to libavcodec-dev, libswscale-dev and
     libavformat-dev to build the ffmpeg thumbnailer plugin.
-  * Update installed files.
   * Add new package: ffmpegthumbs.
   * Update libkcddb4.symbols.
 
   [ José Manuel Santamaría Lema ]
-  * Update installed files.
   * Add debian/not-installed file.
   * Build depend on libmusicbrainz3-dev instead of libmusicbrainz4-dev.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
