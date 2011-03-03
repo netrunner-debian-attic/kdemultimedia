@@ -26,6 +26,7 @@ kdemultimedia (4:4.6.1-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Use wildcard architectures:
     - !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 -> linux-any
+  * Tighten the libpulse-dev build-dendency to the version required upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 Aug 2010 13:26:59 +0300
 

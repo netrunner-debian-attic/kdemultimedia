@@ -10,7 +10,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.1),
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), pkg-kde-tools (>= 0.9),
  kdelibs5-dev (>= 4:4.6), libphonon-dev (>= 4:4.6.0really4.3.80),
  libasound2-dev (>= 1.0.14a) [linux-any],
- libcdparanoia-dev, libflac-dev, libmusicbrainz3-dev, libpulse-dev, libxine-dev (>= 1.1.16.3),
+ libcdparanoia-dev, libflac-dev, libmusicbrainz3-dev, libpulse-dev (>= 0.9.12), libxine-dev (>= 1.1.16.3),
  libogg-dev, libtag1-dev (>= 1.6), libtheora-dev, libtunepimp-dev, libvorbis-dev, libx11-dev,
  libavcodec-dev, libswscale-dev, libavformat-dev
 Standards-Version: 3.9.1
