@@ -21,6 +21,7 @@ kdemultimedia (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Bump S-V to 3.9.1; add Breaks next to Replaces where needed.
   * Add debian/kdemultimedia-kio-plugins.lintian-overrides.
+  * Add myself to Uploaders.
 
   [ Pino Toscano ]
   * Use wildcard architectures:
