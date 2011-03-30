@@ -1,8 +1,17 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+dh = --with=xine
 
-DEB_DH_MAKESHLIBS_ARGS_libkcddb4 := -V'libkcddb4 (>= 4:4.3.0)' -u-c0
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-binary-predeb/dragonplayer::
-	dh_xine -pdragonplayer
+.PHONY: override_dh_auto_test
+
+override_dh_makeshlibs:
+	$(overriden_command) -plibkcddb4 -V -- -c0
+	$(overriden_command) --remaining-packages
+
+override_dh_strip:
+	$(overriden_command) --dbg-package=kdemultimedia-dbg
+
+override_dh_xine:
+	$(overriden_command) -pdragonplayer
