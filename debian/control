@@ -165,7 +165,7 @@ Replaces: libkcddb4 (<< 4:4.4.2)
 Breaks: libkcddb4 (<< 4:4.4.2)
 Description: CDDB retrieval configuration
  This package contains a configuration module for tweaking CDDB retrieval
- settings for applications using the libkccdb library from the KDE Multimedia
+ settings for applications using the libkcddb library from the KDE Multimedia
  Platform.
  .
  This package is part of the KDE multimedia module.
