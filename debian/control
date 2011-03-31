@@ -97,9 +97,9 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: CDDB library for KDE Platform (runtime)
  The KDE Compact Disc DataBase library provides an API for applications using 
- the KDE Platform to fetch and submit audio CD information over the internet.
+ the KDE Platform to fetch and submit audio CD information over the Internet.
  .
- This package also includes libKCompactDisc, which provides and API for
+ This package also includes libKCompactDisc, which provides an API for
  handling audio CDs.
  .
  This package is part of the KDE multimedia module.
@@ -112,11 +112,10 @@ Replaces: kdemultimedia-dev (<< 4:4.1.80)
 Breaks: kdemultimedia-dev (<< 4:4.1.80)
 Description: CDDB library for KDE Platform (development)
  The KDE Compact Disc DataBase library provides an API for KDE applications
- to fetch and submit audio CD information over the internet.
+ to fetch and submit audio CD information over the Internet.
  .
- This package also includes development files for libKCompactDisc.
- .
- This package contains the CDDB library development files for KDE Platform.
+ This package contains the CDDB library development files for KDE Platform,
+ and also the development files for libKCompactDisc.
  .
  This package is part of the KDE multimedia module.
 
@@ -143,7 +142,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, mplayer
 Description: video thumbnail generator using mplayer
  MPlayerThumbs is a video thumbnail generator for KDE file managers
  like Dolphin and Konqueror.  It enables them to show preview images
- of video files.
+ of video files using MPlayer.
  .
  This package is part of the KDE multimedia module.
 
@@ -154,7 +153,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: video thumbnail generator using ffmpeg
  FFMpegThumbs is a video thumbnail generator for KDE file managers
  like Dolphin and Konqueror.  It enables them to show preview images
- of video files.
+ of video files using FFMpeg.
  .
  This package is part of the KDE multimedia module.
 
@@ -164,10 +163,10 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: libkcddb4 (<< 4:4.4.2)
 Breaks: libkcddb4 (<< 4:4.4.2)
-Description: CDDB Retrieval configuration
- This package contains a configuration module for tweaking CDDB Retrieval
+Description: CDDB retrieval configuration
+ This package contains a configuration module for tweaking CDDB retrieval
  settings for applications using the libkccdb library from the KDE Multimedia
- Platform
+ Platform.
  .
  This package is part of the KDE multimedia module.
 
