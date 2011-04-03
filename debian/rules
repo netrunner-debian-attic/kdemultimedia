@@ -7,11 +7,11 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 .PHONY: override_dh_auto_test
 
 override_dh_makeshlibs:
-	$(overriden_command) -plibkcddb4 -V -- -c0
-	$(overriden_command) --remaining-packages
+	$(overridden_command) -plibkcddb4 -V -- -c0
+	$(overridden_command) --remaining-packages
 
 override_dh_strip:
-	$(overriden_command) --dbg-package=kdemultimedia-dbg
+	$(overridden_command) --dbg-package=kdemultimedia-dbg
 
 override_dh_xine:
-	$(overriden_command) -pdragonplayer
+	$(overridden_command) -pdragonplayer
