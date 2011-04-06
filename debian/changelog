@@ -1,4 +1,4 @@
-kdemultimedia (4:4.6.1-0r3) UNRELEASED; urgency=low
+kdemultimedia (4:4.6.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
   * Update installed files.
@@ -21,7 +21,7 @@ kdemultimedia (4:4.6.1-0r3) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Add debian/not-installed file.
   * Build depend on libmusicbrainz3-dev instead of libmusicbrainz4-dev.
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Bump S-V to 3.9.1; add Breaks next to Replaces where needed.
   * Add debian/kdemultimedia-kio-plugins.lintian-overrides.
   * Add myself to Uploaders.
