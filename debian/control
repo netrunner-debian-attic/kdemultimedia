@@ -42,8 +42,6 @@ section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkcddb4 (= ${binary:Version})
 Suggests: lame
-Replaces: kscd (<< 4:4.1.80)
-Breaks: kscd (<< 4:4.1.80)
 Description: transparent audio CD access for applications using the KDE Platform
  This package includes the audiocd KIO plugin, which allows applications using
  the KDE Platform to read audio from CDs and automatically convert it into other 
@@ -108,8 +106,6 @@ Package: libkcddb-dev
 Section: libdevel
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkcddb4 (= ${binary:Version})
-Replaces: kdemultimedia-dev (<< 4:4.1.80)
-Breaks: kdemultimedia-dev (<< 4:4.1.80)
 Description: CDDB library for KDE Platform (development)
  The KDE Compact Disc DataBase library provides an API for KDE applications
  to fetch and submit audio CD information over the Internet.

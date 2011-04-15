@@ -32,6 +32,7 @@ kdemultimedia (4:4.6.2-0r1) UNRELEASED; urgency=low
   * Tighten the libpulse-dev build-dendency to the version required upstream.
   * Minor updates to the descriptions.
     - ... including a typo fix in kde-config-cddb. (Closes: #620247)
+  * Clean up Replaces/Breaks from the pre-squeeze era whenever possible.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Apr 2011 19:16:56 +0200
 
