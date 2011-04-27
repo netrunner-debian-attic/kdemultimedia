@@ -1,4 +1,4 @@
-kdemultimedia (4:4.6.2-0r2) UNRELEASED; urgency=low
+kdemultimedia (4:4.6.2-1) experimental; urgency=low
 
   * New upstream release.
   * Update installed files.
@@ -34,7 +34,7 @@ kdemultimedia (4:4.6.2-0r2) UNRELEASED; urgency=low
     - ... including a typo fix in kde-config-cddb. (Closes: #620247)
   * Clean up Replaces/Breaks from the pre-squeeze era whenever possible.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Apr 2011 19:16:56 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:42 +0300
 
 kdemultimedia (4:4.4.5-1) unstable; urgency=low
 
