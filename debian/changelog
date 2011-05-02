@@ -1,6 +1,12 @@
-kdemultimedia (4:4.6.2-2) UNRELEASED; urgency=low
+kdemultimedia (4:4.6.3-0r0) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ Modestas Vainius ]
   * Confirm symbol files on more arches.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.3.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 02:34:51 +0300
 
