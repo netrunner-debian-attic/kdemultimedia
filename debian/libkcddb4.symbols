@@ -143,11 +143,8 @@ libkcddb.so.4 libkcddb4 #MINVER#
  _ZNK5KCDDB9TrackInfo8toStringEv@Base 4:4.3.4
  _ZNK5KCDDB9TrackInfoeqERKS0_@Base 4:4.3.4
  _ZNK5KCDDB9TrackInfoneERKS0_@Base 4:4.3.4
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt12_Destroy_auxILb0EE9__destroyIPSt4pairISsSsEEEvT_S5_@Base 4:4.6.1
  (optional=templinst|arch=armel)_ZNSt12_Vector_baseISt4pairISsSsESaIS1_EED1Ev@Base 4:4.6.2
  (optional=templinst|arch=armel)_ZNSt12_Vector_baseISt4pairISsSsESaIS1_EED2Ev@Base 4:4.6.2
-#MISSING: 4:4.6.3# (optional=templinst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorIPN11MusicBrainz13ReleaseResultESaIS2_EED1Ev@Base 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorIPN11MusicBrainz13ReleaseResultESaIS2_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIPN11MusicBrainz13ReleaseResultESaIS2_EEaSERKS4_@Base 4:4.5.95
  (optional=templinst)_ZSt8_DestroyIPSt4pairISsSsEEvT_S3_@Base 4:4.6.3
  _ZTI10ConfigBase@Base 4:4.3.4
