@@ -1,4 +1,4 @@
-kdemultimedia (4:4.6.5-0r1) UNRELEASED; urgency=low
+kdemultimedia (4:4.6.5-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -9,7 +9,7 @@ kdemultimedia (4:4.6.5-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
   * Update symbols files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2011 18:44:53 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jul 2011 21:53:58 +0300
 
 kdemultimedia (4:4.6.3-1) unstable; urgency=low
 
