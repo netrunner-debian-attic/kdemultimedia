@@ -1,5 +1,8 @@
 kdemultimedia (4:4.6.5-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Make ffmpegthumbnailer compile with libav >= 0.7 (patch libav_compat.diff).
+    (Closes: #638241)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Sep 2011 16:36:28 +0200
 
