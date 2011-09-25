@@ -1,8 +1,15 @@
-kdemultimedia (4:4.6.5-4) UNRELEASED; urgency=low
+kdemultimedia (4:4.7.1-0r0) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ Fathi Boudra ]
   * Fix typo in libav_compat.diff patch: AUDIO -> VIDEO.
 
- -- Fathi Boudra <fabo@debian.org>  Fri, 23 Sep 2011 17:49:58 +0300
+  [ Daniele E. Domenichelli ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.1.
+  * Bump kdelibs5-dev build dependency to 4:4.7
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Sep 2011 09:50:44 +0100
 
 kdemultimedia (4:4.6.5-3) unstable; urgency=low
 
