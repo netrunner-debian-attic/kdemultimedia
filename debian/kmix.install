@@ -1,6 +1,7 @@
 usr/bin/kmix
 usr/bin/kmixctrl
 usr/lib/kde4/kded_kmixd.so
+usr/lib/kde4/plasma_engine_mixer.so
 usr/lib/libkdeinit4_kmix.so
 usr/lib/libkdeinit4_kmixctrl.so
 usr/share/applications/kde4/kmix.desktop
@@ -44,5 +45,7 @@ usr/share/kde4/apps/kmix/profiles/ALSA.capture.xml
 usr/share/kde4/apps/kmix/profiles/ALSA.default.xml
 usr/share/kde4/apps/kmix/profiles/ALSA.playback.xml
 usr/share/kde4/apps/kmix/profiles/OSS.default.xml
+usr/share/kde4/apps/plasma/services/mixer.operations
 usr/share/kde4/services/kded/kmixd.desktop
 usr/share/kde4/services/kmixctrl_restore.desktop
+usr/share/kde4/services/plasma-engine-mixer.desktop
