@@ -12,6 +12,10 @@ kdemultimedia (4:4.7.2-0r0) UNRELEASED; urgency=low
   * Update libav_compat.diff
   * Update installed files
 
+  [ José Manuel Santamaría Lema ]
+  * Add libavutil51 to Build-Depends to workaround a possible bug in
+    sbuild aptitude based resolver.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Oct 2011 17:49:51 +0200
 
 kdemultimedia (4:4.6.5-3) unstable; urgency=low
