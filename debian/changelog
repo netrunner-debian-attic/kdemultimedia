@@ -16,6 +16,11 @@ kdemultimedia (4:4.7.2-0r1) UNRELEASED; urgency=low
   * Add libavutil51 to Build-Depends to workaround a possible bug in
     sbuild aptitude based resolver.
 
+  [ Pino Toscano ]
+  * Manage some packages renamings:
+    - kdemultimedia-dbg depends on kde-runtime-dbg instead of
+      kdebase-runtime-dbg.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Oct 2011 17:49:51 +0200
 
 kdemultimedia (4:4.6.5-3) unstable; urgency=low

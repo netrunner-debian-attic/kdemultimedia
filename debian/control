@@ -185,7 +185,7 @@ Package: kdemultimedia-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, kdebase-runtime-dbg
+Depends: ${misc:Depends}, kde-runtime-dbg
 Suggests: kdemultimedia (= ${source:Version})
 Description: debugging symbols for the KDE multimedia module
  This package contains debugging files used to investigate problems with
