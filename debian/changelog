@@ -1,3 +1,9 @@
+kdemultimedia (4:4.7.4-0) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Dec 2011 19:59:08 +0100
+
 kdemultimedia (4:4.7.2-1) experimental; urgency=low
 
   * New upstream release.
