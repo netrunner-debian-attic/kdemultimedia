@@ -1,4 +1,4 @@
-kdemultimedia (4:4.7.4-0r1) UNRELEASED; urgency=low
+kdemultimedia (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -7,7 +7,7 @@ kdemultimedia (4:4.7.4-0r1) UNRELEASED; urgency=low
     starting kscd without disc in the device.
   * Confirm symbols files on more architectures with the 4.7.2 build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Dec 2011 20:05:15 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 03:51:56 +0100
 
 kdemultimedia (4:4.7.2-1) experimental; urgency=low
 
