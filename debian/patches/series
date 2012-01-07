@@ -1,4 +1,3 @@
 kmix_showeverywhere.diff
 fix_target_link_libraries.diff
 libav_compat.diff
-kscd_dont_crash_if_device_is_emtpy.diff
