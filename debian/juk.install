@@ -18,8 +18,8 @@ usr/share/icons/hicolor/32x32/apps/juk.png
 usr/share/icons/hicolor/48x48/apps/juk.png
 usr/share/icons/hicolor/64x64/apps/juk.png
 usr/share/kde4/apps/juk/juk.notifyrc
-usr/share/kde4/apps/juk/jukui-rtl.rc
 usr/share/kde4/apps/juk/jukui.rc
+usr/share/kde4/apps/juk/jukui-rtl.rc
 usr/share/kde4/apps/juk/pics/playing.png
 usr/share/kde4/apps/juk/pics/splash.png
 usr/share/kde4/apps/juk/pics/theme.svg
