@@ -1,9 +1,9 @@
-kdemultimedia (4:4.7.97-0r0) UNRELEASED; urgency=low
+kdemultimedia (4:4.8.0-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
   [ Eshat Cakar ]
-  * Remove kscd_dont_crash_if_device_is_emtpy.diff, appliead upstream.
+  * Remove kscd_dont_crash_if_device_is_emtpy.diff, applied upstream.
   * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Jan 2012 14:21:24 +0100
