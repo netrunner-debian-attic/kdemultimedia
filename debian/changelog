@@ -1,4 +1,4 @@
-kdemultimedia (4:4.8.0-0r0) UNRELEASED; urgency=low
+kdemultimedia (4:4.8.1-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -7,7 +7,7 @@ kdemultimedia (4:4.8.0-0r0) UNRELEASED; urgency=low
   * Update installed files.
   * Bump kdelibs5-dev build dependency to version 4:4.8.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Jan 2012 14:21:24 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Mar 2012 00:22:19 +0100
 
 kdemultimedia (4:4.7.4-1) experimental; urgency=low
 
