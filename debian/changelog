@@ -10,6 +10,18 @@ kdemultimedia (4:4.8.1-0r0) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Mar 2012 00:22:19 +0100
 
+kdemultimedia (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+  * Update uploaders, remove Armin.
+
+  [ Pino Toscano ]
+  * libtunepimp is long deprecated and will be removed soon from Debian, so:
+    - drop the build dependency on libtunepimp-dev (Closes: #657016)
+    - do not mention the MusicBrainz support in juk's description
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Mar 2012 20:17:47 +0100
+
 kdemultimedia (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
