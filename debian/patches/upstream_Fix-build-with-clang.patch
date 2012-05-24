@@ -1,0 +1,32 @@
+From 35e6e47c332e12b7f5e6963fee7b32fe6a25e6ba Mon Sep 17 00:00:00 2001
+From: Raphael Kubo da Costa <rakuco@FreeBSD.org>
+Date: Tue, 3 Jan 2012 16:09:04 +0000
+Subject: [PATCH] Fix build with clang.
+
+The call to QSet::contains() failed due to [1].
+
+CCMAIL: mpyne@kde.org
+
+[1] http://clang.llvm.org/compatibility.html#dep_lookup_bases
+
+svn path=/trunk/KDE/kdemultimedia/juk/; revision=1271272
+---
+ stringhash.h |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/juk/stringhash.h b/juk/stringhash.h
+index ff1f193..7d55fb4 100644
+--- a/juk/stringhash.h
++++ b/juk/stringhash.h
+@@ -33,7 +33,7 @@ public:
+      */
+     inline bool insert(const T &value)
+     {
+-        if(contains(value))
++        if(this->contains(value))
+             return true;
+         QSet<T>::insert(value);
+         return false;
+-- 
+1.7.10
+

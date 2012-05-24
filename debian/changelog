@@ -11,6 +11,19 @@ kdemultimedia (4:4.8.3-0r0) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Mar 2012 00:22:19 +0100
 
+kdemultimedia (4:4.7.4-3) unstable; urgency=low
+
+  * Team upload.
+  * Backport upstream commit 35e6e47c332e12b7f5e6963fee7b32fe6a25e6ba to fix
+    building with GCC 4.7; patch upstream_Fix-build-with-clang.patch.
+    (Closes: #672016)
+  * Bump Standards-Version to 3.9.3, no changes required.
+  * Update the symbols files.
+  * Slightly improve copyright.
+  * Remove duplicate Section headers in control.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 24 May 2012 22:32:13 +0200
+
 kdemultimedia (4:4.7.4-2) unstable; urgency=low
 
   * Team upload. Upload to unstable.
