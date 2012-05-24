@@ -154,7 +154,7 @@ These files are under the GNU Free Documentation License:
     | and with no Back-Cover Texts.
 
     The full text of the GNU Free Documentation License is available on
-    Debian systems in /usr/share/common-licenses/GFDL-1.2
+    Debian systems in /usr/share/common-licenses/GFDL-1.2.
 
     As well, all the Manpages.dox included are under this license, unless
     specified otherwise.
@@ -249,7 +249,8 @@ Files under libkcompactdisc/wmlib, except:
   cdtext.c
   include/workman_defs.h
 
-These files are under the GNU Library General Public License:
+These files are under the GNU Library General Public License version 2
+or greater:
 
     | This library is free software; you can redistribute it and/or
     | modify it under the terms of the GNU Library General Public
@@ -267,7 +268,7 @@ These files are under the GNU Library General Public License:
     | Boston, MA 02110-1301, USA.
 
     The full text of the GNU Library General Public License is available on
-    Debian systems in /usr/share/common-licenses/LGPL
+    Debian systems in /usr/share/common-licenses/LGPL-2.
 
 
 Files under strigi-analyzer/, except:
@@ -294,4 +295,4 @@ These files are under the GNU General Public License version 2:
 
 
 The Debian packaging is © 2007-2010,  Debian Qt/KDE Maintainers and
-is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+is licensed under the GPL, see `/usr/share/common-licenses/GPL-*'.
