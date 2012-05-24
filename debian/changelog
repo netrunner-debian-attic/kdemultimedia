@@ -9,6 +9,9 @@ kdemultimedia (4:4.8.3-0r0) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3, no changes needed.
   * Bump kde-sc-dev-latest build dependency to version 4:4.8.3.
 
+  [ Pino Toscano ]
+  * Remove upstream_Fix-build-with-clang.patch, cherry-picked from upstream.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Mar 2012 00:22:19 +0100
 
 kdemultimedia (4:4.7.4-3) unstable; urgency=low
