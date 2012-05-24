@@ -20,7 +20,6 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdemultimedia.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdemultimedia.git
 
 Package: kdemultimedia
-Section: kde
 Architecture: all
 Depends: ${misc:Depends}, dragonplayer (>= ${source:Version}),
  kdemultimedia-kio-plugins (>= ${source:Version}),
@@ -39,7 +38,6 @@ Description: multimedia applications from the official KDE release
  release of KDE.
 
 Package: kdemultimedia-kio-plugins
-section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkcddb4 (= ${binary:Version})
 Suggests: lame
@@ -132,7 +130,6 @@ Description: simple video player
  This package is part of the KDE multimedia module.
 
 Package: mplayerthumbs
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, mplayer
 Description: video thumbnail generator using mplayer
@@ -143,7 +140,6 @@ Description: video thumbnail generator using mplayer
  This package is part of the KDE multimedia module.
 
 Package: ffmpegthumbs
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: video thumbnail generator using ffmpeg
@@ -154,7 +150,6 @@ Description: video thumbnail generator using ffmpeg
  This package is part of the KDE multimedia module.
 
 Package: kde-config-cddb
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: libkcddb4 (<< 4:4.4.2)
