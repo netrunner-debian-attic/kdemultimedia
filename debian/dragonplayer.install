@@ -22,5 +22,5 @@ usr/share/kde4/apps/dragonplayer/dragonlogo.png
 usr/share/kde4/apps/dragonplayer/dragonplayerui.rc
 usr/share/kde4/apps/solid/actions/dragonplayer-opendvd.desktop
 usr/share/kde4/config/dragonplayerrc
-usr/share/kde4/services/dragonplayer_part.desktop
 usr/share/kde4/services/ServiceMenus/dragonplayer_play_dvd.desktop
+usr/share/kde4/services/dragonplayer_part.desktop
