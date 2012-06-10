@@ -7,7 +7,7 @@ kdemultimedia (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Update installed files.
   * Bump kdelibs5-dev build dependency to version 4:4.8.
   * Bump Standards-Version to 3.9.3, no changes needed.
-  * Bump kde-sc-dev-latest build dependency to version 4:4.8.3.
+  * Bump kde-sc-dev-latest build dependency to version 4:4.8.4.
   * Add watch file.
 
   [ Pino Toscano ]
