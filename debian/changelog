@@ -8,6 +8,7 @@ kdemultimedia (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Bump kdelibs5-dev build dependency to version 4:4.8.
   * Bump Standards-Version to 3.9.3, no changes needed.
   * Bump kde-sc-dev-latest build dependency to version 4:4.8.3.
+  * Add watch file.
 
   [ Pino Toscano ]
   * Remove upstream_Fix-build-with-clang.patch, cherry-picked from upstream.
