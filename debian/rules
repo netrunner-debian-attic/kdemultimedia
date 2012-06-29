@@ -1,7 +1,5 @@
 #!/usr/bin/make -f
 
-dh = --with=xine
-
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 .PHONY: override_dh_auto_test
@@ -11,6 +9,3 @@ override_dh_makeshlibs:
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kdemultimedia-dbg
-
-override_dh_xine:
-	$(overridden_command) -pdragonplayer

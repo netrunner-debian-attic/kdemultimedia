@@ -5,6 +5,11 @@ kdemultimedia (4:4.8.4-2) UNRELEASED; urgency=low
     the ffmpegthumbs repository) to respect CXXFLAGS when building ffmpegthumbs;
     patch upstream_don-t-reset-the-default-options-in-CXXFLAGS-when-bui.patch.
   * Fix typo in description of patch libav_compat.diff.
+  * dragonplayer does not use Xine anymore: (Closes: #491622)
+    - drop ${xine-x:Depends} from its depends
+    - adjust its description to mention Phonon instead
+    - stop using the xine debhelper addon
+    - drop the libxine-dev build dependency
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Jun 2012 18:03:49 +0200
 

@@ -12,7 +12,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.8), libphonon-dev (>= 4:4.6.0really4.3.80),
  libasound2-dev (>= 1.0.14a) [linux-any],
- libcdparanoia-dev, libflac-dev, libmusicbrainz3-dev, libpulse-dev (>= 0.9.12), libxine-dev (>= 1.1.16.3),
+ libcdparanoia-dev, libflac-dev, libmusicbrainz3-dev, libpulse-dev (>= 0.9.12),
  libogg-dev, libtag1-dev (>= 1.6), libtheora-dev, libvorbis-dev, libx11-dev,
  libavcodec-dev, libswscale-dev, libavformat-dev, libavutil51
 Standards-Version: 3.9.3
@@ -117,12 +117,12 @@ Description: CDDB library for KDE Platform (development)
 Package: dragonplayer
 Section: video
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${xine-x:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: simple video player
  A video player with a different philosophy: Simple, uncluttered interface.
  .
  Features:
-  - Plays DVDs, VCDs, all video formats supported by Xine.
+  - Plays DVDs, VCDs, all video formats supported by the Phonon backend in use.
   - Bundled with a simple web-page KPart.
   - Starts quickly.
  .
