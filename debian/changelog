@@ -4,6 +4,7 @@ kdemultimedia (4:4.8.4-2) UNRELEASED; urgency=low
   * Backport upstream commit 1fe9ccc25af441895e126a54af89f33f01948c91 (from
     the ffmpegthumbs repository) to respect CXXFLAGS when building ffmpegthumbs;
     patch upstream_don-t-reset-the-default-options-in-CXXFLAGS-when-bui.patch.
+  * Fix typo in description of patch libav_compat.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Jun 2012 18:03:49 +0200
 
