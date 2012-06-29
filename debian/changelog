@@ -1,6 +1,6 @@
-kdemultimedia (4:4.8.4-2) UNRELEASED; urgency=low
+kdemultimedia (4:4.8.4-2) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload.
   * Backport upstream commit 1fe9ccc25af441895e126a54af89f33f01948c91 (from
     the ffmpegthumbs repository) to respect CXXFLAGS when building ffmpegthumbs;
     patch upstream_don-t-reset-the-default-options-in-CXXFLAGS-when-bui.patch.
@@ -11,7 +11,7 @@ kdemultimedia (4:4.8.4-2) UNRELEASED; urgency=low
     - stop using the xine debhelper addon
     - drop the libxine-dev build dependency
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Jun 2012 18:03:49 +0200
+ -- Pino Toscano <pino@debian.org>  Fri, 29 Jun 2012 23:17:22 +0200
 
 kdemultimedia (4:4.8.4-1) unstable; urgency=low
 
