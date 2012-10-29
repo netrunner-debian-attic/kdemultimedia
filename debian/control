@@ -168,8 +168,8 @@ Architecture: any
 Depends: ${sameVersionDep:kdelibs5-dev:kdemultimedia-kio-plugins},
  ${misc:Depends}, libkcddb-dev (= ${binary:Version}),
  kdemultimedia-kio-plugins (= ${binary:Version})
-Replaces: juk (<< 4:4.1.80), kscd (<< 4:4.1.80), kxim (<< 4:4.1.80)
-Breaks: juk (<< 4:4.1.80), kscd (<< 4:4.1.80), kxim (<< 4:4.1.80)
+Replaces: juk (<< 4:4.1.80), kscd (<< 4:4.1.80), kmix (<< 4:4.1.80)
+Breaks: juk (<< 4:4.1.80), kscd (<< 4:4.1.80), kmix (<< 4:4.1.80)
 Description: development files for the KDE multimedia module
  This package contains development files for building software that uses
  libraries from the KDE multimedia module.
