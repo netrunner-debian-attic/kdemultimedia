@@ -1,3 +1,8 @@
+kdemultimedia (4:4.8.4-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Oct 2012 11:59:57 +0100
+
 kdemultimedia (4:4.8.4-2) unstable; urgency=low
 
   * Team upload.
